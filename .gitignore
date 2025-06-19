@@ -203,3 +203,4 @@ __marimo__/
 #safetensor
 TinyLlama-merged
 src/TinyLlama-1.1B-Chat-v1.0/
+src/llama.cpp/
