@@ -59,7 +59,7 @@ The script will:
 
 Install dependencies:
 ```sh
-pip install transformers datasets peft torch
+pip install -r src/requirements.txt
 ```
 
 ## Notes
