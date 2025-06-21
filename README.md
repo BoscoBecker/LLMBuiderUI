@@ -46,7 +46,7 @@ The dataset should be a JSON file containing a list of objects, each with `input
 - **LoRA Config**: `r=8`, `alpha=16`, `dropout=0.05`
 - **Batch Size**: 1 (adjustable)
 - **Epochs**: 1 (increase for better results)
-- **Device**: CPU only (`no_cuda=True`)
+- **Device**: CPU only (`use_cpu=True`)
 
 ## Training
 
