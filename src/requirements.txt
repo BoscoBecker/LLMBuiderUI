@@ -1,1 +1,5 @@
-transformers datasets peft accelerate bitsandbytes
+transformers 
+datasets 
+peft 
+accelerate 
+bitsandbytes

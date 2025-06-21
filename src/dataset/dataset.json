@@ -1,6 +1,1892 @@
 [
   {
-    "input": "Gere um label com posição em X: 20, Y: 20 e com largura 300 e altura 200",
+    "input": "Create two forms: one for entering user information with name and submit button, and another for entering address details like street and city.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo1A",
+          "Caption": "Info 1A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle1",
+              "Caption": "Information Form",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName1",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Enter your name"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit1",
+              "Caption": "Submit",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress1B",
+          "Caption": "Address 1B",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet1",
+              "Caption": "Street:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet1",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity1",
+              "Caption": "City:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity1",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create two forms: one for entering user information with name and submit button, and another for entering address details like street and city.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo2A",
+          "Caption": "Info 2A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle2",
+              "Caption": "Information Form",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName2",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Enter your name"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit2",
+              "Caption": "Submit",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress2B",
+          "Caption": "Address 2B",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet2",
+              "Caption": "Street:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet2",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity2",
+              "Caption": "City:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity2",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create two forms: one for entering user information with name and submit button, and another for entering address details like street and city.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo3A",
+          "Caption": "Info 3A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle3",
+              "Caption": "Information Form",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName3",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Enter your name"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit3",
+              "Caption": "Submit",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress3B",
+          "Caption": "Address 3B",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet3",
+              "Caption": "Street:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet3",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity3",
+              "Caption": "City:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity3",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create two forms: one for entering user information with name and submit button, and another for entering address details like street and city.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo4A",
+          "Caption": "Info 4A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle4",
+              "Caption": "Information Form",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName4",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Enter your name"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit4",
+              "Caption": "Submit",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress4B",
+          "Caption": "Address 4B",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet4",
+              "Caption": "Street:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet4",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity4",
+              "Caption": "City:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity4",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create two forms: one for entering user information with name and submit button, and another for entering address details like street and city.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo5A",
+          "Caption": "Info 5A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle5",
+              "Caption": "Information Form",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName5",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Enter your name"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit5",
+              "Caption": "Submit",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress5B",
+          "Caption": "Address 5B",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet5",
+              "Caption": "Street:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet5",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity5",
+              "Caption": "City:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity5",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create two forms: one for entering user information with name and submit button, and another for entering address details like street and city.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo6A",
+          "Caption": "Info 6A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle6",
+              "Caption": "Information Form",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName6",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Enter your name"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit6",
+              "Caption": "Submit",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress6B",
+          "Caption": "Address 6B",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet6",
+              "Caption": "Street:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet6",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity6",
+              "Caption": "City:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity6",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create two forms: one for entering user information with name and submit button, and another for entering address details like street and city.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo7A",
+          "Caption": "Info 7A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle7",
+              "Caption": "Information Form",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName7",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Enter your name"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit7",
+              "Caption": "Submit",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress7B",
+          "Caption": "Address 7B",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet7",
+              "Caption": "Street:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet7",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity7",
+              "Caption": "City:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity7",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create two forms: one for entering user information with name and submit button, and another for entering address details like street and city.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo8A",
+          "Caption": "Info 8A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle8",
+              "Caption": "Information Form",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName8",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Enter your name"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit8",
+              "Caption": "Submit",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress8B",
+          "Caption": "Address 8B",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet8",
+              "Caption": "Street:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet8",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity8",
+              "Caption": "City:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity8",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create two forms: one for entering user information with name and submit button, and another for entering address details like street and city.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo9A",
+          "Caption": "Info 9A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle9",
+              "Caption": "Information Form",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName9",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Enter your name"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit9",
+              "Caption": "Submit",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress9B",
+          "Caption": "Address 9B",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet9",
+              "Caption": "Street:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet9",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity9",
+              "Caption": "City:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity9",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create two forms: one for entering user information with name and submit button, and another for entering address details like street and city.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo10A",
+          "Caption": "Info 10A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle10",
+              "Caption": "Information Form",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName10",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Enter your name"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit10",
+              "Caption": "Submit",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress10B",
+          "Caption": "Address 10B",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet10",
+              "Caption": "Street:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet10",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity10",
+              "Caption": "City:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity10",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a single button labeled 'Start'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmStartScreen",
+      "Caption": "Start",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnStart",
+          "Caption": "Start",
+          "Position": {
+            "X": 400,
+            "Y": 300
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a centered label saying 'Loading...'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLoadingScreen",
+      "Caption": "Loading",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblLoading",
+          "Caption": "Loading...",
+          "Position": {
+            "X": 400,
+            "Y": 280
+          },
+          "Width": 100,
+          "FontSize": 14,
+          "FontStyle": [
+            "fsBold"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 3' and a button labeled 'Ok'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample3",
+      "Caption": "Example3",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl3",
+          "Caption": "Question 3",
+          "Position": {
+            "X": 50,
+            "Y": 65
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOk",
+          "Caption": "Ok",
+          "Position": {
+            "X": 50,
+            "Y": 95
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 4' and a button labeled 'Save'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample4",
+      "Caption": "Example4",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl4",
+          "Caption": "Question 4",
+          "Position": {
+            "X": 50,
+            "Y": 70
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Save",
+          "Position": {
+            "X": 50,
+            "Y": 100
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 5' and a button labeled 'Submit'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample5",
+      "Caption": "Example5",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl5",
+          "Caption": "Question 5",
+          "Position": {
+            "X": 50,
+            "Y": 75
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 50,
+            "Y": 105
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 6' and a button labeled 'Submit'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample6",
+      "Caption": "Example6",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl6",
+          "Caption": "Question 6",
+          "Position": {
+            "X": 50,
+            "Y": 80
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 50,
+            "Y": 110
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 7' and a button labeled 'Ok'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample7",
+      "Caption": "Example7",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl7",
+          "Caption": "Question 7",
+          "Position": {
+            "X": 50,
+            "Y": 85
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOk",
+          "Caption": "Ok",
+          "Position": {
+            "X": 50,
+            "Y": 115
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 8' and a button labeled 'Submit'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample8",
+      "Caption": "Example8",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl8",
+          "Caption": "Question 8",
+          "Position": {
+            "X": 50,
+            "Y": 90
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 50,
+            "Y": 120
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 9' and a button labeled 'Cancel'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample9",
+      "Caption": "Example9",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl9",
+          "Caption": "Question 9",
+          "Position": {
+            "X": 50,
+            "Y": 95
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancel",
+          "Position": {
+            "X": 50,
+            "Y": 125
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 10' and a button labeled 'Ok'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample10",
+      "Caption": "Example10",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl10",
+          "Caption": "Question 10",
+          "Position": {
+            "X": 50,
+            "Y": 100
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOk",
+          "Caption": "Ok",
+          "Position": {
+            "X": 50,
+            "Y": 130
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 11' and a button labeled 'Save'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample11",
+      "Caption": "Example11",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl11",
+          "Caption": "Question 11",
+          "Position": {
+            "X": 50,
+            "Y": 105
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Save",
+          "Position": {
+            "X": 50,
+            "Y": 135
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 12' and a button labeled 'Ok'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample12",
+      "Caption": "Example12",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl12",
+          "Caption": "Question 12",
+          "Position": {
+            "X": 50,
+            "Y": 110
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOk",
+          "Caption": "Ok",
+          "Position": {
+            "X": 50,
+            "Y": 140
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 13' and a button labeled 'Cancel'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample13",
+      "Caption": "Example13",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl13",
+          "Caption": "Question 13",
+          "Position": {
+            "X": 50,
+            "Y": 115
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancel",
+          "Position": {
+            "X": 50,
+            "Y": 145
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 14' and a button labeled 'Ok'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample14",
+      "Caption": "Example14",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl14",
+          "Caption": "Question 14",
+          "Position": {
+            "X": 50,
+            "Y": 120
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOk",
+          "Caption": "Ok",
+          "Position": {
+            "X": 50,
+            "Y": 150
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 15' and a button labeled 'Cancel'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample15",
+      "Caption": "Example15",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl15",
+          "Caption": "Question 15",
+          "Position": {
+            "X": 50,
+            "Y": 125
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancel",
+          "Position": {
+            "X": 50,
+            "Y": 155
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 16' and a button labeled 'Cancel'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample16",
+      "Caption": "Example16",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl16",
+          "Caption": "Question 16",
+          "Position": {
+            "X": 50,
+            "Y": 130
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancel",
+          "Position": {
+            "X": 50,
+            "Y": 160
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 17' and a button labeled 'Submit'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample17",
+      "Caption": "Example17",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl17",
+          "Caption": "Question 17",
+          "Position": {
+            "X": 50,
+            "Y": 135
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 50,
+            "Y": 165
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 18' and a button labeled 'Cancel'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample18",
+      "Caption": "Example18",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl18",
+          "Caption": "Question 18",
+          "Position": {
+            "X": 50,
+            "Y": 140
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancel",
+          "Position": {
+            "X": 50,
+            "Y": 170
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 19' and a button labeled 'Save'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample19",
+      "Caption": "Example19",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl19",
+          "Caption": "Question 19",
+          "Position": {
+            "X": 50,
+            "Y": 145
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Save",
+          "Position": {
+            "X": 50,
+            "Y": 175
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label saying 'Question 20' and a button labeled 'Submit'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample20",
+      "Caption": "Example20",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl20",
+          "Caption": "Question 20",
+          "Position": {
+            "X": 50,
+            "Y": 150
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 50,
+            "Y": 180
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a simple login form with username and password fields and a login button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLogin",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblUsername",
+          "Caption": "Username:",
+          "Position": {
+            "X": 30,
+            "Y": 40
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtUsername",
+          "Position": {
+            "X": 110,
+            "Y": 38
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblPassword",
+          "Caption": "Password:",
+          "Position": {
+            "X": 30,
+            "Y": 80
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*",
+          "Position": {
+            "X": 110,
+            "Y": 78
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnLogin",
+          "Caption": "Login",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form to register a user with a combo box for role selection and a submit button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmUserRole",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "CmbRoles",
+          "Position": {
+            "X": 50,
+            "Y": 40
+          },
+          "Width": 200,
+          "Items": [
+            "Admin",
+            "User",
+            "Guest"
+          ]
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 50,
+            "Y": 90
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form to register a user with a combo box for role selection and a submit button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmUserRole",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "CmbRoles",
+          "Position": {
+            "X": 50,
+            "Y": 40
+          },
+          "Width": 200,
+          "Items": [
+            "Admin",
+            "User",
+            "Guest"
+          ]
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 50,
+            "Y": 90
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form that includes a panel labeled 'User Info' and two labels inside for name and email.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmUserInfo",
+      "Children": [
+        {
+          "Type": "TPanel",
+          "Name": "PnlUserInfo",
+          "Caption": "User Info",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 300,
+          "Height": 120,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblName",
+              "Caption": "Name:",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              }
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblEmail",
+              "Caption": "Email:",
+              "Position": {
+                "X": 10,
+                "Y": 40
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a simple form with a single button labeled 'OK'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSimpleButton",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnOK",
+          "Caption": "OK",
+          "Position": {
+            "X": 100,
+            "Y": 50
+          },
+          "Width": 80,
+          "Height": 30
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Name' and a text edit field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmNameInput",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblName",
+          "Text": "Name:",
+          "Position": {
+            "X": 20,
+            "Y": 20
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtName",
+          "Position": {
+            "X": 80,
+            "Y": 18
+          },
+          "Width": 200
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with two buttons: 'Yes' and 'No'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmYesNo",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnYes",
+          "Caption": "Yes",
+          "Position": {
+            "X": 50,
+            "Y": 40
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnNo",
+          "Caption": "No",
+          "Position": {
+            "X": 150,
+            "Y": 40
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a checkbox labeled 'Accept terms'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmAcceptTerms",
+      "Children": [
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkAcceptTerms",
+          "Caption": "Accept terms",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a combo box with items 'Red', 'Green', 'Blue'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmColorSelect",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "CmbColor",
+          "Position": {
+            "X": 40,
+            "Y": 40
+          },
+          "Width": 120,
+          "Items": [
+            "Red",
+            "Green",
+            "Blue"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a label with position X: 20, Y: 20 and width 300 and height 200",
     "output": {
       "Type": "TForm",
       "Name": "FrmScrollBox",
@@ -19,7 +1905,7 @@
     }
   },
   {
-    "input": "Crie dois ComboBox lado a lado com itens 'Item 1' a 'Item 3' e 'A' a 'C'",
+    "input": "Create two ComboBoxes side by side with items 'Item 1' to 'Item 3' and 'A' to 'C'",
     "output": {
       "Type": "TForm",
       "Name": "FrmComboExample",
@@ -56,7 +1942,7 @@
     }
   },
   {
-    "input": "Gere um sistema completo com telas de login, cadastro de pessoas, cadastro de clientes, cadastro de fornecedores, tela principal e gerador de relatórios, cada uma como um form separado e com campos detalhados.",
+    "input": "Generate a complete system with login screen, people registration, customer registration, supplier registration, main screen and report generator, each as a separate form and with detailed fields.",
     "output": {
       "Forms": [
         {
@@ -66,7 +1952,7 @@
           "Align": "Client",
           "Children": [
             {
-              "Name": "LblTituloLogin",
+              "Name": "LblTitleLogin",
               "Type": "TLabel",
               "Text": "Welcome",
               "Position": {
@@ -81,7 +1967,7 @@
               ]
             },
             {
-              "Name": "LblUsuario",
+              "Name": "LblUser",
               "Type": "TLabel",
               "Text": "User:",
               "Position": {
@@ -92,7 +1978,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtUsuario",
+              "Name": "EdtUser",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -103,7 +1989,7 @@
               "Height": 30
             },
             {
-              "Name": "LblSenha",
+              "Name": "LblPassword",
               "Type": "TLabel",
               "Text": "Password:",
               "Position": {
@@ -114,7 +2000,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtSenha",
+              "Name": "EdtPassword",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -126,7 +2012,7 @@
               "PasswordChar": "*"
             },
             {
-              "Name": "BtnEntrar",
+              "Name": "BtnLogin",
               "Type": "TButton",
               "Caption": "Login",
               "Position": {
@@ -137,7 +2023,7 @@
               "Height": 35
             },
             {
-              "Name": "BtnEsqueciSenha",
+              "Name": "BtnLostPassword",
               "Type": "TButton",
               "Caption": "Forgot Password",
               "Position": {
@@ -156,7 +2042,7 @@
           "Align": "Client",
           "Children": [
             {
-              "Name": "LblBemVindo",
+              "Name": "LblWelcome",
               "Type": "TLabel",
               "Text": "Welcome to the System",
               "Position": {
@@ -171,7 +2057,7 @@
               ]
             },
             {
-              "Name": "BtnCadastroCliente",
+              "Name": "BtnRegisterCustomer",
               "Type": "TButton",
               "Caption": "Customer Registration",
               "Position": {
@@ -182,7 +2068,7 @@
               "Height": 40
             },
             {
-              "Name": "BtnCadastroFornecedor",
+              "Name": "BtnRegisterFornecedor",
               "Type": "TButton",
               "Caption": "Supplier Registration",
               "Position": {
@@ -193,7 +2079,7 @@
               "Height": 40
             },
             {
-              "Name": "BtnCadastroPessoa",
+              "Name": "BtnRegisterPeople",
               "Type": "TButton",
               "Caption": "People Registration",
               "Position": {
@@ -204,7 +2090,7 @@
               "Height": 40
             },
             {
-              "Name": "BtnGerarRelatorio",
+              "Name": "BtnGenerateReport",
               "Type": "TButton",
               "Caption": "Report Generator",
               "Position": {
@@ -215,7 +2101,7 @@
               "Height": 40
             },
             {
-              "Name": "BtnSair",
+              "Name": "BtnExit",
               "Type": "TButton",
               "Caption": "Exit",
               "Position": {
@@ -234,7 +2120,7 @@
           "Align": "Client",
           "Children": [
             {
-              "Name": "LblTituloRelatorio",
+              "Name": "LblTitleReport",
               "Type": "TLabel",
               "Text": "Report Generator",
               "Position": {
@@ -249,7 +2135,7 @@
               ]
             },
             {
-              "Name": "LblTipoRelatorio",
+              "Name": "LblTipoReport",
               "Type": "TLabel",
               "Text": "Report Type:",
               "Position": {
@@ -260,7 +2146,7 @@
               "Height": 20
             },
             {
-              "Name": "CmbTipoRelatorio",
+              "Name": "CmbTipoReport",
               "Type": "TComboBox",
               "Items": [
                 "Customers",
@@ -276,7 +2162,7 @@
               "Height": 30
             },
             {
-              "Name": "LblPeriodo",
+              "Name": "LblPeriod",
               "Type": "TLabel",
               "Text": "Period:",
               "Position": {
@@ -297,7 +2183,7 @@
               "Height": 30
             },
             {
-              "Name": "LblAte",
+              "Name": "LblUntil",
               "Type": "TLabel",
               "Text": "to",
               "Position": {
@@ -308,7 +2194,7 @@
               "Height": 20
             },
             {
-              "Name": "DtFinal",
+              "Name": "DtEnd",
               "Type": "TDateTimePicker",
               "Position": {
                 "X": 260,
@@ -318,7 +2204,7 @@
               "Height": 30
             },
             {
-              "Name": "LblFiltro",
+              "Name": "LblFilter",
               "Type": "TLabel",
               "Text": "Filter:",
               "Position": {
@@ -329,7 +2215,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtFiltro",
+              "Name": "EdtFilter",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -340,7 +2226,7 @@
               "Height": 30
             },
             {
-              "Name": "BtnGerar",
+              "Name": "BtnGenerate",
               "Type": "TButton",
               "Caption": "Generate Report",
               "Position": {
@@ -351,7 +2237,7 @@
               "Height": 40
             },
             {
-              "Name": "BtnExportarPDF",
+              "Name": "BtnExportPDF",
               "Type": "TButton",
               "Caption": "Export PDF",
               "Position": {
@@ -362,9 +2248,9 @@
               "Height": 40
             },
             {
-              "Name": "BtnEnviarEmail",
+              "Name": "BtnSendMail",
               "Type": "TButton",
-              "Caption": "Send by Email",
+              "Caption": "Send by Mail",
               "Position": {
                 "X": 300,
                 "Y": 180
@@ -373,7 +2259,7 @@
               "Height": 40
             },
             {
-              "Name": "GridRelatorio",
+              "Name": "GridReport",
               "Type": "TStringGrid",
               "Position": {
                 "X": 10,
@@ -391,7 +2277,7 @@
           "Align": "Client",
           "Children": [
             {
-              "Name": "LblTituloPessoa",
+              "Name": "LblTitlePeople",
               "Type": "TLabel",
               "Text": "People Registration",
               "Position": {
@@ -406,7 +2292,7 @@
               ]
             },
             {
-              "Name": "LblTipoPessoa",
+              "Name": "LblTipoPeople",
               "Type": "TLabel",
               "Text": "Type:",
               "Position": {
@@ -417,7 +2303,7 @@
               "Height": 20
             },
             {
-              "Name": "CmbTipoPessoa",
+              "Name": "CmbTipoPeople",
               "Type": "TComboBox",
               "Items": [
                 "Individual",
@@ -431,7 +2317,7 @@
               "Height": 30
             },
             {
-              "Name": "LblNomeRazao",
+              "Name": "LblCompanyName",
               "Type": "TLabel",
               "Text": "Name/Company Name:",
               "Position": {
@@ -442,7 +2328,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtNomeRazao",
+              "Name": "EdtCompanyName",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -453,7 +2339,7 @@
               "Height": 30
             },
             {
-              "Name": "LblApelidoFantasia",
+              "Name": "LblFantasyName",
               "Type": "TLabel",
               "Text": "Nickname/Trade Name:",
               "Position": {
@@ -464,7 +2350,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtApelidoFantasia",
+              "Name": "EdtFantasyName",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -475,7 +2361,7 @@
               "Height": 30
             },
             {
-              "Name": "LblDocumento",
+              "Name": "LblDocument",
               "Type": "TLabel",
               "Text": "CPF/CNPJ:",
               "Position": {
@@ -486,7 +2372,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtDocumento",
+              "Name": "EdtDocument",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -497,7 +2383,7 @@
               "Height": 30
             },
             {
-              "Name": "LblRGIE",
+              "Name": "LblRGStateRegistration",
               "Type": "TLabel",
               "Text": "RG/State Registration:",
               "Position": {
@@ -508,7 +2394,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtRGIE",
+              "Name": "EdtRGStateRegistration",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -519,7 +2405,7 @@
               "Height": 30
             },
             {
-              "Name": "LblTelefone",
+              "Name": "LblPhone",
               "Type": "TLabel",
               "Text": "Phone:",
               "Position": {
@@ -530,7 +2416,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtTelefone",
+              "Name": "EdtPhone",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -541,9 +2427,9 @@
               "Height": 30
             },
             {
-              "Name": "LblEmail",
+              "Name": "LblMail",
               "Type": "TLabel",
-              "Text": "Email:",
+              "Text": "Mail:",
               "Position": {
                 "X": 270,
                 "Y": 210
@@ -552,7 +2438,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtEmail",
+              "Name": "EdtMail",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -563,7 +2449,7 @@
               "Height": 30
             },
             {
-              "Name": "LblEndereco",
+              "Name": "LblAddress",
               "Type": "TLabel",
               "Text": "Address:",
               "Position": {
@@ -574,7 +2460,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtEndereco",
+              "Name": "EdtAddress",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -585,7 +2471,7 @@
               "Height": 30
             },
             {
-              "Name": "LblNumero",
+              "Name": "LblNumber",
               "Type": "TLabel",
               "Text": "Number:",
               "Position": {
@@ -596,7 +2482,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtNumero",
+              "Name": "EdtNumber",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -607,7 +2493,7 @@
               "Height": 30
             },
             {
-              "Name": "LblBairro",
+              "Name": "LblDistrict",
               "Type": "TLabel",
               "Text": "District:",
               "Position": {
@@ -618,7 +2504,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtBairro",
+              "Name": "EdtDistrict",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -629,7 +2515,7 @@
               "Height": 30
             },
             {
-              "Name": "LblCidade",
+              "Name": "LblCity",
               "Type": "TLabel",
               "Text": "City:",
               "Position": {
@@ -640,7 +2526,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtCidade",
+              "Name": "EdtCity",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -651,7 +2537,7 @@
               "Height": 30
             },
             {
-              "Name": "LblUF",
+              "Name": "LblState",
               "Type": "TLabel",
               "Text": "State:",
               "Position": {
@@ -662,7 +2548,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtUF",
+              "Name": "EdtState",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -673,7 +2559,7 @@
               "Height": 30
             },
             {
-              "Name": "LblCEP",
+              "Name": "LblZIPCode",
               "Type": "TLabel",
               "Text": "ZIP Code:",
               "Position": {
@@ -684,7 +2570,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtCEP",
+              "Name": "EdtZIPCode",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -695,7 +2581,7 @@
               "Height": 30
             },
             {
-              "Name": "LblTipoCadastro",
+              "Name": "LblTipoRegister",
               "Type": "TLabel",
               "Text": "Registration Type:",
               "Position": {
@@ -706,7 +2592,7 @@
               "Height": 20
             },
             {
-              "Name": "CmbTipoCadastro",
+              "Name": "CmbTipoRegister",
               "Type": "TComboBox",
               "Items": [
                 "Customer",
@@ -721,7 +2607,7 @@
               "Height": 30
             },
             {
-              "Name": "BtnSalvarPessoa",
+              "Name": "BtnSalvarPeople",
               "Type": "TButton",
               "Caption": "Save",
               "Position": {
@@ -732,7 +2618,7 @@
               "Height": 40
             },
             {
-              "Name": "BtnCancelarPessoa",
+              "Name": "BtnCancelarPeople",
               "Type": "TButton",
               "Caption": "Cancel",
               "Position": {
@@ -751,7 +2637,7 @@
           "Align": "Client",
           "Children": [
             {
-              "Name": "LblTituloFornecedor",
+              "Name": "LblTitleFornecedor",
               "Type": "TLabel",
               "Text": "Supplier Registration",
               "Position": {
@@ -766,7 +2652,7 @@
               ]
             },
             {
-              "Name": "LblRazaoSocial",
+              "Name": "LblCompanyName",
               "Type": "TLabel",
               "Text": "Company Name:",
               "Position": {
@@ -777,7 +2663,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtRazaoSocial",
+              "Name": "EdtCompanyName",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -788,7 +2674,7 @@
               "Height": 30
             },
             {
-              "Name": "LblNomeFantasia",
+              "Name": "LblTradeName",
               "Type": "TLabel",
               "Text": "Trade Name:",
               "Position": {
@@ -799,7 +2685,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtNomeFantasia",
+              "Name": "EdtTradeName",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -832,7 +2718,7 @@
               "Height": 30
             },
             {
-              "Name": "LblIE",
+              "Name": "LblStateRegistration",
               "Type": "TLabel",
               "Text": "State Registration:",
               "Position": {
@@ -843,7 +2729,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtIE",
+              "Name": "EdtStateRegistration",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -854,7 +2740,7 @@
               "Height": 30
             },
             {
-              "Name": "LblContato",
+              "Name": "LblContact",
               "Type": "TLabel",
               "Text": "Contact:",
               "Position": {
@@ -865,7 +2751,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtContato",
+              "Name": "EdtContact",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -876,7 +2762,7 @@
               "Height": 30
             },
             {
-              "Name": "LblTelefone",
+              "Name": "LblPhone",
               "Type": "TLabel",
               "Text": "Phone:",
               "Position": {
@@ -887,7 +2773,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtTelefone",
+              "Name": "EdtPhone",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -898,9 +2784,9 @@
               "Height": 30
             },
             {
-              "Name": "LblEmail",
+              "Name": "LblMail",
               "Type": "TLabel",
-              "Text": "Email:",
+              "Text": "Mail:",
               "Position": {
                 "X": 10,
                 "Y": 210
@@ -909,7 +2795,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtEmail",
+              "Name": "EdtMail",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -920,7 +2806,7 @@
               "Height": 30
             },
             {
-              "Name": "LblEndereco",
+              "Name": "LblAddress",
               "Type": "TLabel",
               "Text": "Address:",
               "Position": {
@@ -931,7 +2817,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtEndereco",
+              "Name": "EdtAddress",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -942,7 +2828,7 @@
               "Height": 30
             },
             {
-              "Name": "LblNumero",
+              "Name": "LblNumber",
               "Type": "TLabel",
               "Text": "Number:",
               "Position": {
@@ -953,7 +2839,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtNumero",
+              "Name": "EdtNumber",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -964,7 +2850,7 @@
               "Height": 30
             },
             {
-              "Name": "LblBairro",
+              "Name": "LblDistrict",
               "Type": "TLabel",
               "Text": "District:",
               "Position": {
@@ -975,7 +2861,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtBairro",
+              "Name": "EdtDistrict",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -986,7 +2872,7 @@
               "Height": 30
             },
             {
-              "Name": "LblCidade",
+              "Name": "LblCity",
               "Type": "TLabel",
               "Text": "City:",
               "Position": {
@@ -997,7 +2883,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtCidade",
+              "Name": "EdtCity",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1008,7 +2894,7 @@
               "Height": 30
             },
             {
-              "Name": "LblUF",
+              "Name": "LblState",
               "Type": "TLabel",
               "Text": "State:",
               "Position": {
@@ -1019,7 +2905,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtUF",
+              "Name": "EdtState",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1030,7 +2916,7 @@
               "Height": 30
             },
             {
-              "Name": "LblCEP",
+              "Name": "LblZIPCode",
               "Type": "TLabel",
               "Text": "ZIP Code:",
               "Position": {
@@ -1041,7 +2927,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtCEP",
+              "Name": "EdtZIPCode",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1052,7 +2938,7 @@
               "Height": 30
             },
             {
-              "Name": "BtnSalvarFornecedor",
+              "Name": "BtnSaveSupplier",
               "Type": "TButton",
               "Caption": "Save",
               "Position": {
@@ -1063,7 +2949,7 @@
               "Height": 40
             },
             {
-              "Name": "BtnCancelarFornecedor",
+              "Name": "BtnCancelSupplier",
               "Type": "TButton",
               "Caption": "Cancel",
               "Position": {
@@ -1082,7 +2968,7 @@
           "Align": "Client",
           "Children": [
             {
-              "Name": "LblTituloCliente",
+              "Name": "LblTitleCustomer",
               "Type": "TLabel",
               "Text": "Customer Registration",
               "Position": {
@@ -1097,7 +2983,7 @@
               ]
             },
             {
-              "Name": "LblNomeCompleto",
+              "Name": "LblFullName",
               "Type": "TLabel",
               "Text": "Full Name:",
               "Position": {
@@ -1108,7 +2994,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtNomeCompleto",
+              "Name": "EdtFullName",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1163,7 +3049,7 @@
               "Height": 30
             },
             {
-              "Name": "LblDataNascimento",
+              "Name": "LblBirthDate",
               "Type": "TLabel",
               "Text": "Birth Date:",
               "Position": {
@@ -1184,7 +3070,7 @@
               "Height": 30
             },
             {
-              "Name": "LblTelefone",
+              "Name": "LblPhone",
               "Type": "TLabel",
               "Text": "Phone:",
               "Position": {
@@ -1195,7 +3081,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtTelefone",
+              "Name": "EdtPhone",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1206,9 +3092,9 @@
               "Height": 30
             },
             {
-              "Name": "LblEmail",
+              "Name": "LblMail",
               "Type": "TLabel",
-              "Text": "Email:",
+              "Text": "Mail:",
               "Position": {
                 "X": 240,
                 "Y": 170
@@ -1217,7 +3103,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtEmail",
+              "Name": "EdtMail",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1228,7 +3114,7 @@
               "Height": 30
             },
             {
-              "Name": "LblEndereco",
+              "Name": "LblAddress",
               "Type": "TLabel",
               "Text": "Address:",
               "Position": {
@@ -1239,7 +3125,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtEndereco",
+              "Name": "EdtAddress",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1250,7 +3136,7 @@
               "Height": 30
             },
             {
-              "Name": "LblNumero",
+              "Name": "LblNumber",
               "Type": "TLabel",
               "Text": "Number:",
               "Position": {
@@ -1261,7 +3147,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtNumero",
+              "Name": "EdtNumber",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1272,7 +3158,7 @@
               "Height": 30
             },
             {
-              "Name": "LblBairro",
+              "Name": "LblDistrict",
               "Type": "TLabel",
               "Text": "District:",
               "Position": {
@@ -1283,7 +3169,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtBairro",
+              "Name": "EdtDistrict",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1294,7 +3180,7 @@
               "Height": 30
             },
             {
-              "Name": "LblCidade",
+              "Name": "LblCity",
               "Type": "TLabel",
               "Text": "City:",
               "Position": {
@@ -1305,7 +3191,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtCidade",
+              "Name": "EdtCity",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1316,7 +3202,7 @@
               "Height": 30
             },
             {
-              "Name": "LblUF",
+              "Name": "LblState",
               "Type": "TLabel",
               "Text": "State:",
               "Position": {
@@ -1327,7 +3213,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtUF",
+              "Name": "EdtState",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1338,7 +3224,7 @@
               "Height": 30
             },
             {
-              "Name": "LblCEP",
+              "Name": "LblZIPCode",
               "Type": "TLabel",
               "Text": "ZIP Code:",
               "Position": {
@@ -1349,7 +3235,7 @@
               "Height": 20
             },
             {
-              "Name": "EdtCEP",
+              "Name": "EdtZIPCode",
               "Type": "TEdit",
               "Text": "",
               "Position": {
@@ -1360,7 +3246,7 @@
               "Height": 30
             },
             {
-              "Name": "BtnSalvarCliente",
+              "Name": "BtnSalvarCustomer",
               "Type": "TButton",
               "Caption": "Save",
               "Position": {
@@ -1371,7 +3257,7 @@
               "Height": 40
             },
             {
-              "Name": "BtnCancelarCliente",
+              "Name": "BtnCancelarCustomer",
               "Type": "TButton",
               "Caption": "Cancel",
               "Position": {
@@ -1384,7 +3270,7 @@
           ]
         },
         {
-          "Name": "FrmCadastroCliente",
+          "Name": "FrmRegisterCustomer",
           "Caption": "Customer Registration",
           "Type": "TForm",
           "Align": "Client",
@@ -1609,5 +3495,3557 @@
         }
       ]
     }
+  },
+  {
+    "input": "Generate a login form with fields for username, password, and a remember me checkbox.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLogin",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblUser",
+          "Caption": "Username:",
+          "Position": {
+            "X": 30,
+            "Y": 40
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtUser",
+          "Position": {
+            "X": 110,
+            "Y": 38
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblPassword",
+          "Caption": "Password:",
+          "Position": {
+            "X": 30,
+            "Y": 80
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*",
+          "Position": {
+            "X": 110,
+            "Y": 78
+          }
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkRemember",
+          "Caption": "Remember me",
+          "Position": {
+            "X": 110,
+            "Y": 110
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnLogin",
+          "Caption": "Login",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a registration form with fields for name, email, password, and a submit button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmRegister",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblName",
+          "Caption": "Name:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtName",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblEmail",
+          "Caption": "Email:",
+          "Position": {
+            "X": 30,
+            "Y": 70
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtEmail",
+          "Position": {
+            "X": 110,
+            "Y": 68
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblPassword",
+          "Caption": "Password:",
+          "Position": {
+            "X": 30,
+            "Y": 110
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*",
+          "Position": {
+            "X": 110,
+            "Y": 108
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 110,
+            "Y": 150
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a contact form with fields for phone, email, and a message memo.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmContact",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPhone",
+          "Caption": "Phone:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPhone",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblEmail",
+          "Caption": "Email:",
+          "Position": {
+            "X": 30,
+            "Y": 70
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtEmail",
+          "Position": {
+            "X": 110,
+            "Y": 68
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblMessage",
+          "Caption": "Message:",
+          "Position": {
+            "X": 30,
+            "Y": 110
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoMessage",
+          "Position": {
+            "X": 110,
+            "Y": 108
+          },
+          "Width": 200,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSend",
+          "Caption": "Send",
+          "Position": {
+            "X": 110,
+            "Y": 200
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a combo box for country selection and a button to confirm.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCountry",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblCountry",
+          "Caption": "Country:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbCountry",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Items": [
+            "USA",
+            "Brazil",
+            "Germany",
+            "Japan"
+          ]
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnConfirm",
+          "Caption": "Confirm",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a radio group for gender selection and a submit button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmGender",
+      "Children": [
+        {
+          "Type": "TRadioGroup",
+          "Name": "RdgGender",
+          "Caption": "Gender",
+          "Items": [
+            "Male",
+            "Female",
+            "Other"
+          ],
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 30,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a list box for selecting hobbies and a save button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmHobbies",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblHobbies",
+          "Caption": "Hobbies:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstHobbies",
+          "Items": [
+            "Reading",
+            "Sports",
+            "Music",
+            "Travel"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 150,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Save",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a date picker for birth date and a confirm button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmBirthDate",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblBirthDate",
+          "Caption": "Birth Date:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TDateTimePicker",
+          "Name": "DtpBirthDate",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnConfirm",
+          "Caption": "Confirm",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a grid for product list and a button to export.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmProductList",
+      "Children": [
+        {
+          "Type": "TStringGrid",
+          "Name": "GridProducts",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "ColCount": 3,
+          "RowCount": 10,
+          "Width": 400,
+          "Height": 200
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnExport",
+          "Caption": "Export",
+          "Position": {
+            "X": 30,
+            "Y": 250
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with two panels, each with a label and a button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPanels",
+      "Children": [
+        {
+          "Type": "TPanel",
+          "Name": "Pnl1",
+          "Caption": "Panel 1",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 200,
+          "Height": 100,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblP1",
+              "Caption": "First Panel",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              }
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnP1",
+              "Caption": "OK",
+              "Position": {
+                "X": 10,
+                "Y": 50
+              }
+            }
+          ]
+        },
+        {
+          "Type": "TPanel",
+          "Name": "Pnl2",
+          "Caption": "Panel 2",
+          "Position": {
+            "X": 250,
+            "Y": 30
+          },
+          "Width": 200,
+          "Height": 100,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblP2",
+              "Caption": "Second Panel",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              }
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnP2",
+              "Caption": "Cancel",
+              "Position": {
+                "X": 10,
+                "Y": 50
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a password field and a show password checkbox.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPassword",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPassword",
+          "Caption": "Password:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkShow",
+          "Caption": "Show Password",
+          "Position": {
+            "X": 110,
+            "Y": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a memo for notes and a save button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmNotes",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblNotes",
+          "Caption": "Notes:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoNotes",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Save",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a group box containing two radio buttons.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmGroupRadio",
+      "Children": [
+        {
+          "Type": "TGroupBox",
+          "Name": "GrpOptions",
+          "Caption": "Options",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 200,
+          "Height": 100,
+          "Children": [
+            {
+              "Type": "TRadioButton",
+              "Name": "RdoA",
+              "Caption": "Option A",
+              "Position": {
+                "X": 10,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TRadioButton",
+              "Name": "RdoB",
+              "Caption": "Option B",
+              "Position": {
+                "X": 10,
+                "Y": 50
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, an edit field, and a button to clear the field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmClearField",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblInput",
+          "Caption": "Input:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtInput",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnClear",
+          "Caption": "Clear",
+          "Position": {
+            "X": 110,
+            "Y": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a combo box for selecting a color and a panel that changes color.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmColorPanel",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "CmbColor",
+          "Items": [
+            "Red",
+            "Green",
+            "Blue"
+          ],
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TPanel",
+          "Name": "PnlColor",
+          "Caption": "Color Panel",
+          "Position": {
+            "X": 30,
+            "Y": 70
+          },
+          "Width": 200,
+          "Height": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a progress bar, and a button to start progress.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmProgress",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblProgress",
+          "Caption": "Progress:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TProgressBar",
+          "Name": "PrgBar",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnStart",
+          "Caption": "Start",
+          "Position": {
+            "X": 110,
+            "Y": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a tab control with two tabs: Info and Settings.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmTabs",
+      "Children": [
+        {
+          "Type": "TTabControl",
+          "Name": "TabMain",
+          "Tabs": [
+            "Info",
+            "Settings"
+          ],
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 300,
+          "Height": 200
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a slider, and a value display.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSlider",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblVolume",
+          "Caption": "Volume:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TTrackBar",
+          "Name": "TrkVolume",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblValue",
+          "Caption": "50",
+          "Position": {
+            "X": 320,
+            "Y": 28
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a search box and a list box for results.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSearch",
+      "Children": [
+        {
+          "Type": "TEdit",
+          "Name": "EdtSearch",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 200,
+          "Text": "Search..."
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstResults",
+          "Position": {
+            "X": 30,
+            "Y": 70
+          },
+          "Width": 200,
+          "Height": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a spin edit for quantity, and a button to add.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmQuantity",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblQty",
+          "Caption": "Quantity:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TSpinEdit",
+          "Name": "SpnQty",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnAdd",
+          "Caption": "Add",
+          "Position": {
+            "X": 110,
+            "Y": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a timer label and a start button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmTimer",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblTimer",
+          "Caption": "00:00",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "FontSize": 20
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnStart",
+          "Caption": "Start",
+          "Position": {
+            "X": 110,
+            "Y": 30
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a password edit, and a show/hide button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmShowPassword",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPassword",
+          "Caption": "Password:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnShow",
+          "Caption": "Show/Hide",
+          "Position": {
+            "X": 250,
+            "Y": 28
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a combo box for selecting a department, and a button to filter.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmDepartment",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblDept",
+          "Caption": "Department:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbDept",
+          "Items": [
+            "HR",
+            "IT",
+            "Sales"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnFilter",
+          "Caption": "Filter",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a calendar, and a button to select a date.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCalendar",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblDate",
+          "Caption": "Select Date:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMonthCalendar",
+          "Name": "CalDate",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSelect",
+          "Caption": "Select",
+          "Position": {
+            "X": 110,
+            "Y": 200
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a checkbox for agreement, and a submit button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmAgreement",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblAgree",
+          "Caption": "I agree to the terms",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkAgree",
+          "Caption": "Agree",
+          "Position": {
+            "X": 30,
+            "Y": 60
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 30,
+            "Y": 100
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a combo box for selecting a language, and a button to apply.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLanguage",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblLang",
+          "Caption": "Language:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbLang",
+          "Items": [
+            "English",
+            "Spanish",
+            "French"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnApply",
+          "Caption": "Apply",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a memo for feedback, and a send button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmFeedback",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblFeedback",
+          "Caption": "Feedback:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoFeedback",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSend",
+          "Caption": "Send",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a list box for selecting items, and a button to remove selected.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmRemoveItem",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblItems",
+          "Caption": "Items:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstItems",
+          "Items": [
+            "Item 1",
+            "Item 2",
+            "Item 3"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 150,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnRemove",
+          "Caption": "Remove",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a combo box for selecting a city, and a button to search.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCitySearch",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblCity",
+          "Caption": "City:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbCity",
+          "Items": [
+            "New York",
+            "London",
+            "Tokyo"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSearch",
+          "Caption": "Search",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a slider for rating, and a button to submit.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmRating",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblRating",
+          "Caption": "Rating:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TTrackBar",
+          "Name": "TrkRating",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Submit",
+          "Position": {
+            "X": 110,
+            "Y": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a checkbox for newsletter subscription, and a register button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmNewsletter",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblNewsletter",
+          "Caption": "Subscribe to newsletter",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkSubscribe",
+          "Caption": "Subscribe",
+          "Position": {
+            "X": 30,
+            "Y": 60
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnRegister",
+          "Caption": "Register",
+          "Position": {
+            "X": 30,
+            "Y": 100
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a combo box for selecting a state, and a button to confirm.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmState",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblState",
+          "Caption": "State:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbState",
+          "Items": [
+            "California",
+            "Texas",
+            "Florida"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnConfirm",
+          "Caption": "Confirm",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a memo for description, and a save button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmDescription",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblDesc",
+          "Caption": "Description:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoDesc",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Save",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a combo box for selecting a year, and a button to filter.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmYear",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblYear",
+          "Caption": "Year:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbYear",
+          "Items": [
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnFilter",
+          "Caption": "Filter",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a list box for selecting fruits, and a button to add.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmFruits",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblFruits",
+          "Caption": "Fruits:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstFruits",
+          "Items": [
+            "Apple",
+            "Banana",
+            "Orange"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 150,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnAdd",
+          "Caption": "Add",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a combo box for selecting a car brand, and a button to search.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCarBrand",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblBrand",
+          "Caption": "Car Brand:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbBrand",
+          "Items": [
+            "Toyota",
+            "Ford",
+            "BMW"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSearch",
+          "Caption": "Search",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a checkbox for accepting terms, and a continue button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmTerms",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblTerms",
+          "Caption": "Accept the terms to continue",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkAccept",
+          "Caption": "I accept",
+          "Position": {
+            "X": 30,
+            "Y": 60
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnContinue",
+          "Caption": "Continue",
+          "Position": {
+            "X": 30,
+            "Y": 100
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a combo box for selecting a continent, and a button to show info.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmContinent",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblContinent",
+          "Caption": "Continent:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbContinent",
+          "Items": [
+            "Asia",
+            "Europe",
+            "America"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnShow",
+          "Caption": "Show Info",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a memo for comments, and a button to clear.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmComments",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblComments",
+          "Caption": "Comments:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoComments",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnClear",
+          "Caption": "Clear",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a combo box for selecting a pet, and a button to adopt.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPet",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPet",
+          "Caption": "Pet:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbPet",
+          "Items": [
+            "Dog",
+            "Cat",
+            "Bird"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnAdopt",
+          "Caption": "Adopt",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a list box for selecting courses, and a button to enroll.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCourses",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblCourses",
+          "Caption": "Courses:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstCourses",
+          "Items": [
+            "Math",
+            "Science",
+            "History"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 150,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnEnroll",
+          "Caption": "Enroll",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a combo box for selecting a payment method, and a button to pay.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPayment",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPayment",
+          "Caption": "Payment Method:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbPayment",
+          "Items": [
+            "Credit Card",
+            "PayPal",
+            "Bank Transfer"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnPay",
+          "Caption": "Pay",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a memo for address, and a button to save.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmAddress",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblAddress",
+          "Caption": "Address:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoAddress",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Save",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a combo box for selecting a time zone, and a button to set.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmTimeZone",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblTimeZone",
+          "Caption": "Time Zone:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbTimeZone",
+          "Items": [
+            "UTC-3",
+            "UTC+0",
+            "UTC+8"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSet",
+          "Caption": "Set",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a list box for selecting skills, and a button to add.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSkills",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblSkills",
+          "Caption": "Skills:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstSkills",
+          "Items": [
+            "Python",
+            "Java",
+            "C++"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 150,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnAdd",
+          "Caption": "Add",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Generate a form with a label, a combo box for selecting a project, and a button to open.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmProject",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblProject",
+          "Caption": "Project:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbProject",
+          "Items": [
+            "Alpha",
+            "Beta",
+            "Gamma"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOpen",
+          "Caption": "Open",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label, a memo for biography, and a save button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmBiography",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblBio",
+          "Caption": "Biography:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoBio",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Save",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a single OK button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmOk",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnOK",
+          "Caption": "OK"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Hello'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmHello",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblHello",
+          "Caption": "Hello"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a text field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmText",
+      "Children": [
+        {
+          "Type": "TEdit",
+          "Name": "EdtText"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a button labeled 'Send'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSend",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnSend",
+          "Caption": "Send"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a checkbox.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCheck",
+      "Children": [
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkOption",
+          "Caption": "Option"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label and a button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLabelButton",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblInfo",
+          "Caption": "Info"
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnAction",
+          "Caption": "Action"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a combo box.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCombo",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "CmbOptions",
+          "Items": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a memo.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmMemo",
+      "Children": [
+        {
+          "Type": "TMemo",
+          "Name": "MemoNotes"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a radio button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmRadio",
+      "Children": [
+        {
+          "Type": "TRadioButton",
+          "Name": "RdoOption",
+          "Caption": "Option"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a list box.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmList",
+      "Children": [
+        {
+          "Type": "TListBox",
+          "Name": "LstItems",
+          "Items": [
+            "Item 1",
+            "Item 2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a password field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPassword",
+      "Children": [
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Welcome' and a button 'Continue'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmWelcome",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblWelcome",
+          "Caption": "Welcome"
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnContinue",
+          "Caption": "Continue"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a date picker.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmDate",
+      "Children": [
+        {
+          "Type": "TDateTimePicker",
+          "Name": "DtpDate"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Name' and an edit field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmName",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblName",
+          "Caption": "Name:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtName"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a button labeled 'Cancel'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCancel",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancel"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Email' and a text field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmEmail",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblEmail",
+          "Caption": "Email:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtEmail"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a group box.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmGroup",
+      "Children": [
+        {
+          "Type": "TGroupBox",
+          "Name": "GrpMain",
+          "Caption": "Group"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Phone' and a text field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPhone",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPhone",
+          "Caption": "Phone:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPhone"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a button labeled 'Exit'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExit",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnExit",
+          "Caption": "Exit"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Password' and a password field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPasswordLabel",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPassword",
+          "Caption": "Password:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Age' and a spin edit.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmAge",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblAge",
+          "Caption": "Age:"
+        },
+        {
+          "Type": "TSpinEdit",
+          "Name": "SpnAge"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Country' and a combo box.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCountry",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblCountry",
+          "Caption": "Country:"
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbCountry",
+          "Items": [
+            "USA",
+            "UK",
+            "Canada"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Feedback' and a memo.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmFeedback",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblFeedback",
+          "Caption": "Feedback:"
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoFeedback"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Search' and a button 'Go'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSearch",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblSearch",
+          "Caption": "Search:"
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnGo",
+          "Caption": "Go"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Username' and a text field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmUsername",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblUsername",
+          "Caption": "Username:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtUsername"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'City' and a combo box.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCity",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblCity",
+          "Caption": "City:"
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbCity",
+          "Items": [
+            "New York",
+            "London",
+            "Paris"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Date' and a date picker.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmDateLabel",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblDate",
+          "Caption": "Date:"
+        },
+        {
+          "Type": "TDateTimePicker",
+          "Name": "DtpDate"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Time' and a time picker.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmTime",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblTime",
+          "Caption": "Time:"
+        },
+        {
+          "Type": "TDateTimePicker",
+          "Name": "DtpTime"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Option' and a radio button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmOptionRadio",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblOption",
+          "Caption": "Option:"
+        },
+        {
+          "Type": "TRadioButton",
+          "Name": "RdoOption",
+          "Caption": "Option"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Select' and a list box.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSelectList",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblSelect",
+          "Caption": "Select:"
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstSelect",
+          "Items": [
+            "One",
+            "Two"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Notes' and a memo.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmNotes",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblNotes",
+          "Caption": "Notes:"
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoNotes"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'ID' and a text field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmID",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblID",
+          "Caption": "ID:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtID"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Status' and a combo box.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmStatus",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblStatus",
+          "Caption": "Status:"
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbStatus",
+          "Items": [
+            "Active",
+            "Inactive"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Score' and a spin edit.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmScore",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblScore",
+          "Caption": "Score:"
+        },
+        {
+          "Type": "TSpinEdit",
+          "Name": "SpnScore"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Type' and a combo box.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmType",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblType",
+          "Caption": "Type:"
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbType",
+          "Items": [
+            "A",
+            "B"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Level' and a spin edit.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLevel",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblLevel",
+          "Caption": "Level:"
+        },
+        {
+          "Type": "TSpinEdit",
+          "Name": "SpnLevel"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Priority' and a combo box.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPriority",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPriority",
+          "Caption": "Priority:"
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbPriority",
+          "Items": [
+            "Low",
+            "Medium",
+            "High"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Result' and a text field.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmResult",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblResult",
+          "Caption": "Result:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtResult"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Description' and a memo.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmDescription",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblDescription",
+          "Caption": "Description:"
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoDescription"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Option 1' and a checkbox.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmOption1",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblOption1",
+          "Caption": "Option 1:"
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkOption1",
+          "Caption": "Option 1"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create a form with a label 'Option 2' and a radio button.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmOption2",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblOption2",
+          "Caption": "Option 2:"
+        },
+        {
+          "Type": "TRadioButton",
+          "Name": "RdoOption2",
+          "Caption": "Option 2"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Create two forms: a login form and a register form, both with defined size and positions.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmLogin",
+        "Width": 400,
+        "Height": 250,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblUser",
+            "Caption": "User:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtUser",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200
+          },
+          {
+            "Type": "TLabel",
+            "Name": "LblPass",
+            "Caption": "Password:",
+            "Position": {
+              "X": 30,
+              "Y": 80
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtPass",
+            "PasswordChar": "*",
+            "Position": {
+              "X": 120,
+              "Y": 78
+            },
+            "Width": 200
+          },
+          {
+            "Type": "TButton",
+            "Name": "BtnLogin",
+            "Caption": "Login",
+            "Position": {
+              "X": 120,
+              "Y": 120
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmRegister",
+        "Width": 500,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblName",
+            "Caption": "Name:",
+            "Position": {
+              "X": 40,
+              "Y": 50
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtName",
+            "Position": {
+              "X": 140,
+              "Y": 48
+            },
+            "Width": 250
+          },
+          {
+            "Type": "TLabel",
+            "Name": "LblEmail",
+            "Caption": "Email:",
+            "Position": {
+              "X": 40,
+              "Y": 90
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtEmail",
+            "Position": {
+              "X": 140,
+              "Y": 88
+            },
+            "Width": 250
+          },
+          {
+            "Type": "TButton",
+            "Name": "BtnRegister",
+            "Caption": "Register",
+            "Position": {
+              "X": 140,
+              "Y": 130
+            },
+            "Width": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Generate three forms: customer, supplier, and product, each with specific width and height.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmCustomer",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblCustomer",
+            "Caption": "Customer Name:",
+            "Position": {
+              "X": 20,
+              "Y": 30
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtCustomer",
+            "Position": {
+              "X": 150,
+              "Y": 28
+            },
+            "Width": 300
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmSupplier",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblSupplier",
+            "Caption": "Supplier Name:",
+            "Position": {
+              "X": 20,
+              "Y": 30
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtSupplier",
+            "Position": {
+              "X": 150,
+              "Y": 28
+            },
+            "Width": 300
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmProduct",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblProduct",
+            "Caption": "Product Name:",
+            "Position": {
+              "X": 20,
+              "Y": 30
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtProduct",
+            "Position": {
+              "X": 150,
+              "Y": 28
+            },
+            "Width": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Create two forms: one for feedback and one for support, both with defined positions and sizes.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmFeedback",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblFeedback",
+            "Caption": "Feedback:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TMemo",
+            "Name": "MemoFeedback",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200,
+            "Height": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmSupport",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblSupport",
+            "Caption": "Support Request:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TMemo",
+            "Name": "MemoSupport",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200,
+            "Height": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Generate four forms: sales, inventory, finance, and HR, each with unique size and a button.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmSales",
+        "Width": 500,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnSales",
+            "Caption": "Sales",
+            "Position": {
+              "X": 200,
+              "Y": 250
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmInventory",
+        "Width": 600,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnInventory",
+            "Caption": "Inventory",
+            "Position": {
+              "X": 250,
+              "Y": 300
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmFinance",
+        "Width": 550,
+        "Height": 320,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnFinance",
+            "Caption": "Finance",
+            "Position": {
+              "X": 225,
+              "Y": 270
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmHR",
+        "Width": 480,
+        "Height": 280,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnHR",
+            "Caption": "HR",
+            "Position": {
+              "X": 190,
+              "Y": 230
+            },
+            "Width": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Create three forms: login, dashboard, and settings, each with width, height, and a label.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmLogin",
+        "Width": 400,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblLogin",
+            "Caption": "Login",
+            "Position": {
+              "X": 150,
+              "Y": 20
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmDashboard",
+        "Width": 800,
+        "Height": 600,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblDashboard",
+            "Caption": "Dashboard",
+            "Position": {
+              "X": 350,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmSettings",
+        "Width": 500,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblSettings",
+            "Caption": "Settings",
+            "Position": {
+              "X": 200,
+              "Y": 40
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Generate two forms: one for user profile and one for notifications, both with defined dimensions.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmProfile",
+        "Width": 450,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblProfile",
+            "Caption": "User Profile",
+            "Position": {
+              "X": 150,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmNotifications",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblNotifications",
+            "Caption": "Notifications",
+            "Position": {
+              "X": 120,
+              "Y": 30
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Create three forms: order, payment, and confirmation, each with a button and set size.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmOrder",
+        "Width": 500,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnOrder",
+            "Caption": "Order",
+            "Position": {
+              "X": 200,
+              "Y": 300
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmPayment",
+        "Width": 500,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnPayment",
+            "Caption": "Pay",
+            "Position": {
+              "X": 200,
+              "Y": 300
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmConfirmation",
+        "Width": 400,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnConfirm",
+            "Caption": "Confirm",
+            "Position": {
+              "X": 150,
+              "Y": 150
+            },
+            "Width": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Generate two forms: one for product entry and one for product list, both with width and height.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmProductEntry",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblProduct",
+            "Caption": "Product:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtProduct",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmProductList",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TStringGrid",
+            "Name": "GridProducts",
+            "Position": {
+              "X": 30,
+              "Y": 30
+            },
+            "ColCount": 4,
+            "RowCount": 20,
+            "Width": 500,
+            "Height": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Create three forms: employee, department, and payroll, each with a label and defined size.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmEmployee",
+        "Width": 500,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblEmployee",
+            "Caption": "Employee",
+            "Position": {
+              "X": 200,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmDepartment",
+        "Width": 400,
+        "Height": 250,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblDepartment",
+            "Caption": "Department",
+            "Position": {
+              "X": 120,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmPayroll",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblPayroll",
+            "Caption": "Payroll",
+            "Position": {
+              "X": 250,
+              "Y": 30
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Generate four forms: project, task, milestone, and report, each with a button and set dimensions.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmProject",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnProject",
+            "Caption": "Project",
+            "Position": {
+              "X": 250,
+              "Y": 350
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmTask",
+        "Width": 500,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnTask",
+            "Caption": "Task",
+            "Position": {
+              "X": 200,
+              "Y": 250
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmMilestone",
+        "Width": 400,
+        "Height": 250,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnMilestone",
+            "Caption": "Milestone",
+            "Position": {
+              "X": 150,
+              "Y": 200
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmReport",
+        "Width": 700,
+        "Height": 500,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnReport",
+            "Caption": "Report",
+            "Position": {
+              "X": 300,
+              "Y": 450
+            },
+            "Width": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Create two forms: one for login and one for dashboard, both with defined width, height, and a label.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmLogin",
+        "Width": 350,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblLogin",
+            "Caption": "Login",
+            "Position": {
+              "X": 120,
+              "Y": 20
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmDashboard",
+        "Width": 800,
+        "Height": 600,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblDashboard",
+            "Caption": "Dashboard",
+            "Position": {
+              "X": 350,
+              "Y": 30
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Generate three forms: registration, profile, and settings, each with a button and set size.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmRegistration",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnRegister",
+            "Caption": "Register",
+            "Position": {
+              "X": 150,
+              "Y": 250
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmProfile",
+        "Width": 450,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnProfile",
+            "Caption": "Profile",
+            "Position": {
+              "X": 175,
+              "Y": 300
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmSettings",
+        "Width": 500,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnSettings",
+            "Caption": "Settings",
+            "Position": {
+              "X": 200,
+              "Y": 350
+            },
+            "Width": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Create two forms: one for search and one for results, both with width, height, and a text field.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmSearch",
+        "Width": 400,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TEdit",
+            "Name": "EdtSearch",
+            "Position": {
+              "X": 100,
+              "Y": 50
+            },
+            "Width": 200
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmResults",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TListBox",
+            "Name": "LstResults",
+            "Position": {
+              "X": 50,
+              "Y": 50
+            },
+            "Width": 400,
+            "Height": 250
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Generate three forms: login, main, and logout, each with a button and defined dimensions.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmLogin",
+        "Width": 350,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnLogin",
+            "Caption": "Login",
+            "Position": {
+              "X": 120,
+              "Y": 120
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmMain",
+        "Width": 800,
+        "Height": 600,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnMain",
+            "Caption": "Main",
+            "Position": {
+              "X": 350,
+              "Y": 500
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmLogout",
+        "Width": 350,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnLogout",
+            "Caption": "Logout",
+            "Position": {
+              "X": 120,
+              "Y": 120
+            },
+            "Width": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Create four forms: home, about, contact, and help, each with a label and set size.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmHome",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblHome",
+            "Caption": "Home",
+            "Position": {
+              "X": 250,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmAbout",
+        "Width": 500,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblAbout",
+            "Caption": "About",
+            "Position": {
+              "X": 200,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmContact",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblContact",
+            "Caption": "Contact",
+            "Position": {
+              "X": 150,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmHelp",
+        "Width": 450,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblHelp",
+            "Caption": "Help",
+            "Position": {
+              "X": 175,
+              "Y": 30
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Generate two forms: one for user info and one for address, both with width, height, and fields.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmUserInfo",
+        "Width": 400,
+        "Height": 250,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblName",
+            "Caption": "Name:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtName",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmAddress",
+        "Width": 400,
+        "Height": 250,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblStreet",
+            "Caption": "Street:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtStreet",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200
+          }
+        ]
+      }
+    ]
   }
 ]
+
+
+

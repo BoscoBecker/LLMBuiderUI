@@ -1,0 +1,156 @@
+          {
+  "Forms": [
+    {
+      "Type": "TForm",
+      "Name": "FrmLoginScreen",
+      "Caption": "Login Screen",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TPanel",
+          "Name": "PanelLeft",
+          "Caption": " ",
+          "Position": { "X": 0, "Y": 0 },
+          "Width": 450,
+          "Height": 600,
+          "Color": "#2E41F5",
+          "Children": [
+            {
+              "Type": "TImage",
+              "Name": "LogoImage",
+              "Position": { "X": 150, "Y": 100 },
+              "Width": 150,
+              "Height": 300
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblWelcome",
+              "Position": { "X": 30, "Y": 420 },
+              "Caption": "Welcome to BuiderUI - Login !",
+              "FontSize": 24,
+              "FontColor": "#FFFFFF",
+              "FontStyle": ["fsBold"]
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblDescription",
+              "Position": { "X": 30, "Y": 460 },
+              "Width": 380,
+              "Caption": "A simple login screen render using BuilderUI, JSON based.",
+              "FontSize": 12,
+              "FontColor": "#D0D0FF"
+            }
+          ]
+        },
+        {
+          "Type": "TPanel",
+          "Name": "PanelRight",
+          "Position": { "X": 450, "Y": 0 },
+          "Width": 450,
+          "Height": 600,
+          "Color": "#FFFFFF",
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblEmail",
+              "Position": { "X": 80, "Y": 100 },
+              "Caption": "Email address",
+              "FontSize": 10,
+              "FontColor": "#000000"
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EditEmail",
+              "Position": { "X": 80, "Y": 120 },
+              "Width": 300,
+              "Text": "name@mail.com"
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblPassword",
+              "Position": { "X": 80, "Y": 150 },
+              "Caption": "Password",
+              "FontSize": 10,
+              "FontColor": "#000000"
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EditPassword",
+              "Position": { "X": 80, "Y": 170 },
+              "Width": 300,
+              "PasswordChar": "*"
+            },
+            {
+              "Type": "TCheckBox",
+              "Name": "ChkRememberMe",
+              "Position": { "X": 80, "Y": 220 },
+              "Caption": "Remember me"
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblForgotPassword",
+              "Position": { "X": 270, "Y": 222 },
+              "Caption": "Forgot password?",
+              "FontColor": "#2E41F5",
+              "FontStyle": ["fsUnderline"]
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnLogin",
+              "Position": { "X": 80, "Y": 270 },
+              "Width": 100,
+              "Caption": "Login"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSignUp",
+              "Position": { "X": 190, "Y": 270 },
+              "Width": 100,
+              "Caption": "Sign up"
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblFollow",
+              "Position": { "X": 80, "Y": 330 },
+              "Caption": "FOLLOW"
+            },
+            {
+              "Type": "TPanel",
+              "Color": "#FFFFFF",
+              "Name": "PanelSocialIcons",
+              "Caption": "  .  ",
+              "Position": { "X": 80, "Y": 360 },
+              "Width": 150,
+              "Height": 30,
+              "Children": [
+                {
+                  "Type": "TImage",
+                  "Name": "IconFacebook",
+                  "Position": { "X": 0, "Y": 0 },
+                  "Width": 30,
+                  "Height": 30
+                },
+                {
+                  "Type": "TImage",
+                  "Name": "IconTwitter",
+                  "Position": { "X": 40, "Y": 0 },
+                  "Width": 30,
+                  "Height": 30
+                },
+                {
+                  "Type": "TImage",
+                  "Name": "IconInstagram",
+                  "Position": { "X": 80, "Y": 0 },
+                  "Width": 30,
+                  "Height": 30
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

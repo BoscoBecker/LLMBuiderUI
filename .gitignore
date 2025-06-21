@@ -204,3 +204,7 @@ __marimo__/
 TinyLlama-merged
 src/TinyLlama-1.1B-Chat-v1.0/
 src/llama.cpp/
+src/TinyLlama-lora-out/checkpoint-336/adapter_model.safetensors
+src/TinyLlama-lora-out/checkpoint-420/adapter_model.safetensors
+src/TinyLlama-lora-out/adapter_model.safetensors
+src/TinyLlama-lora-out/tokenizer.model

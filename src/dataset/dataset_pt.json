@@ -1,0 +1,7048 @@
+[
+  {
+    "input": "Crie dois formulários: um para inserir informações do usuário com o botão Nome e enviar e outro para inserir detalhes de endereço como Street e City.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo1A",
+          "Caption": "INFO 1A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle1",
+              "Caption": "Formulário de informação",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName1",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Digite seu nome"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit1",
+              "Caption": "Enviar",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress1B",
+          "Caption": "Endereço 1b",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet1",
+              "Caption": "Rua:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet1",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity1",
+              "Caption": "Cidade:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity1",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois formulários: um para inserir informações do usuário com o botão Nome e enviar e outro para inserir detalhes de endereço como Street e City.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo2A",
+          "Caption": "Info 2a",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle2",
+              "Caption": "Formulário de informação",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName2",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Digite seu nome"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit2",
+              "Caption": "Enviar",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress2B",
+          "Caption": "Endereço 2b",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet2",
+              "Caption": "Rua:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet2",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity2",
+              "Caption": "Cidade:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity2",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois formulários: um para inserir informações do usuário com o botão Nome e enviar e outro para inserir detalhes de endereço como Street e City.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo3A",
+          "Caption": "Info 3a",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle3",
+              "Caption": "Formulário de informação",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName3",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Digite seu nome"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit3",
+              "Caption": "Enviar",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress3B",
+          "Caption": "Endereço 3b",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet3",
+              "Caption": "Rua:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet3",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity3",
+              "Caption": "Cidade:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity3",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois formulários: um para inserir informações do usuário com o botão Nome e enviar e outro para inserir detalhes de endereço como Street e City.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo4A",
+          "Caption": "INFO 4A",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle4",
+              "Caption": "Formulário de informação",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName4",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Digite seu nome"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit4",
+              "Caption": "Enviar",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress4B",
+          "Caption": "Endereço 4b",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet4",
+              "Caption": "Rua:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet4",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity4",
+              "Caption": "Cidade:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity4",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois formulários: um para inserir informações do usuário com o botão Nome e enviar e outro para inserir detalhes de endereço como Street e City.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo5A",
+          "Caption": "Info 5a",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle5",
+              "Caption": "Formulário de informação",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName5",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Digite seu nome"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit5",
+              "Caption": "Enviar",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress5B",
+          "Caption": "Endereço 5b",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet5",
+              "Caption": "Rua:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet5",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity5",
+              "Caption": "Cidade:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity5",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois formulários: um para inserir informações do usuário com o botão Nome e enviar e outro para inserir detalhes de endereço como Street e City.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo6A",
+          "Caption": "Info 6a",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle6",
+              "Caption": "Formulário de informação",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName6",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Digite seu nome"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit6",
+              "Caption": "Enviar",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress6B",
+          "Caption": "Endereço 6b",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet6",
+              "Caption": "Rua:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet6",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity6",
+              "Caption": "Cidade:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity6",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois formulários: um para inserir informações do usuário com o botão Nome e enviar e outro para inserir detalhes de endereço como Street e City.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo7A",
+          "Caption": "Info 7a",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle7",
+              "Caption": "Formulário de informação",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName7",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Digite seu nome"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit7",
+              "Caption": "Enviar",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress7B",
+          "Caption": "Endereço 7b",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet7",
+              "Caption": "Rua:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet7",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity7",
+              "Caption": "Cidade:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity7",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois formulários: um para inserir informações do usuário com o botão Nome e enviar e outro para inserir detalhes de endereço como Street e City.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo8A",
+          "Caption": "Info 8a",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle8",
+              "Caption": "Formulário de informação",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName8",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Digite seu nome"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit8",
+              "Caption": "Enviar",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress8B",
+          "Caption": "Endereço 8b",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet8",
+              "Caption": "Rua:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet8",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity8",
+              "Caption": "Cidade:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity8",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois formulários: um para inserir informações do usuário com o botão Nome e enviar e outro para inserir detalhes de endereço como Street e City.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo9A",
+          "Caption": "Info 9a",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle9",
+              "Caption": "Formulário de informação",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName9",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Digite seu nome"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit9",
+              "Caption": "Enviar",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress9B",
+          "Caption": "Endereço 9b",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet9",
+              "Caption": "Rua:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet9",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity9",
+              "Caption": "Cidade:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity9",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois formulários: um para inserir informações do usuário com o botão Nome e enviar e outro para inserir detalhes de endereço como Street e City.",
+    "output": {
+      "Forms": [
+        {
+          "Type": "TForm",
+          "Name": "FrmInfo10A",
+          "Caption": "Info 10a",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblTitle10",
+              "Caption": "Formulário de informação",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              },
+              "FontSize": 16,
+              "FontStyle": [
+                "fsBold"
+              ],
+              "Width": 300
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtName10",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              },
+              "Width": 300,
+              "Text": "Digite seu nome"
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnSubmit10",
+              "Caption": "Enviar",
+              "Position": {
+                "X": 30,
+                "Y": 100
+              },
+              "Width": 100
+            }
+          ]
+        },
+        {
+          "Type": "TForm",
+          "Name": "FrmAddress10B",
+          "Caption": "Endereço 10b",
+          "Align": "Client",
+          "Width": 900,
+          "Height": 600,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblStreet10",
+              "Caption": "Rua:",
+              "Position": {
+                "X": 30,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtStreet10",
+              "Position": {
+                "X": 100,
+                "Y": 18
+              },
+              "Width": 250
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblCity10",
+              "Caption": "Cidade:",
+              "Position": {
+                "X": 30,
+                "Y": 60
+              }
+            },
+            {
+              "Type": "TEdit",
+              "Name": "EdtCity10",
+              "Position": {
+                "X": 100,
+                "Y": 58
+              },
+              "Width": 250
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um único botão rotulado como 'START'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmStartScreen",
+      "Caption": "Começar",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnStart",
+          "Caption": "Começar",
+          "Position": {
+            "X": 400,
+            "Y": 300
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma etiqueta centrada dizendo 'Carregando ...'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLoadingScreen",
+      "Caption": "Carregando",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblLoading",
+          "Caption": "Carregando...",
+          "Position": {
+            "X": 400,
+            "Y": 280
+          },
+          "Width": 100,
+          "FontSize": 14,
+          "FontStyle": [
+            "fsBold"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 3' e um botão rotulado 'OK'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample3",
+      "Caption": "Exemplo3",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl3",
+          "Caption": "Pergunta 3",
+          "Position": {
+            "X": 50,
+            "Y": 65
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOk",
+          "Caption": "OK",
+          "Position": {
+            "X": 50,
+            "Y": 95
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 4' e um botão rotulado 'Salvar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample4",
+      "Caption": "Exemplo4",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl4",
+          "Caption": "Pergunta 4",
+          "Position": {
+            "X": 50,
+            "Y": 70
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Salvar",
+          "Position": {
+            "X": 50,
+            "Y": 100
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 5' e um botão rotulado como 'Enviar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample5",
+      "Caption": "Exemplo5",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl5",
+          "Caption": "Pergunta 5",
+          "Position": {
+            "X": 50,
+            "Y": 75
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 50,
+            "Y": 105
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 6' e um botão rotulado 'Enviar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample6",
+      "Caption": "Exemplo6",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl6",
+          "Caption": "Pergunta 6",
+          "Position": {
+            "X": 50,
+            "Y": 80
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 50,
+            "Y": 110
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 7' e um botão rotulado 'OK'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample7",
+      "Caption": "Exemplo7",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl7",
+          "Caption": "Pergunta 7",
+          "Position": {
+            "X": 50,
+            "Y": 85
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOk",
+          "Caption": "OK",
+          "Position": {
+            "X": 50,
+            "Y": 115
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 8' e um botão rotulado 'Enviar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample8",
+      "Caption": "Exemplo8",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl8",
+          "Caption": "Pergunta 8",
+          "Position": {
+            "X": 50,
+            "Y": 90
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 50,
+            "Y": 120
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 9' e um botão rotulado 'Cancelar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample9",
+      "Caption": "Exemplo9",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl9",
+          "Caption": "Pergunta 9",
+          "Position": {
+            "X": 50,
+            "Y": 95
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancelar",
+          "Position": {
+            "X": 50,
+            "Y": 125
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 10' e um botão rotulado 'OK'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample10",
+      "Caption": "Exemplo10",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl10",
+          "Caption": "Pergunta 10",
+          "Position": {
+            "X": 50,
+            "Y": 100
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOk",
+          "Caption": "OK",
+          "Position": {
+            "X": 50,
+            "Y": 130
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 11' e um botão rotulado 'Salvar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample11",
+      "Caption": "Exemplo11",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl11",
+          "Caption": "Pergunta 11",
+          "Position": {
+            "X": 50,
+            "Y": 105
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Salvar",
+          "Position": {
+            "X": 50,
+            "Y": 135
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 12' e um botão rotulado 'OK'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample12",
+      "Caption": "Exemplo12",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl12",
+          "Caption": "Pergunta 12",
+          "Position": {
+            "X": 50,
+            "Y": 110
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOk",
+          "Caption": "OK",
+          "Position": {
+            "X": 50,
+            "Y": 140
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 13' e um botão rotulado 'Cancelar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample13",
+      "Caption": "Exemplo13",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl13",
+          "Caption": "Pergunta 13",
+          "Position": {
+            "X": 50,
+            "Y": 115
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancelar",
+          "Position": {
+            "X": 50,
+            "Y": 145
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 14' e um botão rotulado 'OK'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample14",
+      "Caption": "Exemplo14",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl14",
+          "Caption": "Pergunta 14",
+          "Position": {
+            "X": 50,
+            "Y": 120
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOk",
+          "Caption": "OK",
+          "Position": {
+            "X": 50,
+            "Y": 150
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 15' e um botão rotulado 'Cancelar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample15",
+      "Caption": "Exemplo15",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl15",
+          "Caption": "Pergunta 15",
+          "Position": {
+            "X": 50,
+            "Y": 125
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancelar",
+          "Position": {
+            "X": 50,
+            "Y": 155
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 16' e um botão rotulado 'Cancelar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample16",
+      "Caption": "Exemplo16",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl16",
+          "Caption": "Pergunta 16",
+          "Position": {
+            "X": 50,
+            "Y": 130
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancelar",
+          "Position": {
+            "X": 50,
+            "Y": 160
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 17' e um botão rotulado 'Enviar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample17",
+      "Caption": "Exemplo17",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl17",
+          "Caption": "Pergunta 17",
+          "Position": {
+            "X": 50,
+            "Y": 135
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 50,
+            "Y": 165
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 18' e um botão rotulado 'Cancelar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample18",
+      "Caption": "Exemplo18",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl18",
+          "Caption": "Pergunta 18",
+          "Position": {
+            "X": 50,
+            "Y": 140
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancelar",
+          "Position": {
+            "X": 50,
+            "Y": 170
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 19' e um botão rotulado 'Salvar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample19",
+      "Caption": "Exemplo19",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl19",
+          "Caption": "Pergunta 19",
+          "Position": {
+            "X": 50,
+            "Y": 145
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Salvar",
+          "Position": {
+            "X": 50,
+            "Y": 175
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo dizendo 'Pergunta 20' e um botão rotulado 'Enviar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExample20",
+      "Caption": "Exemplo20",
+      "Align": "Client",
+      "Width": 900,
+      "Height": 600,
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Lbl20",
+          "Caption": "Pergunta 20",
+          "Position": {
+            "X": 50,
+            "Y": 150
+          },
+          "Width": 300
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 50,
+            "Y": 180
+          },
+          "Width": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário de login simples com campos de nome de usuário e senha e um botão de login.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLogin",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblUsername",
+          "Caption": "Nome de usuário:",
+          "Position": {
+            "X": 30,
+            "Y": 40
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtUsername",
+          "Position": {
+            "X": 110,
+            "Y": 38
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblSenha",
+          "Caption": "Senha:",
+          "Position": {
+            "X": 30,
+            "Y": 80
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*",
+          "Position": {
+            "X": 110,
+            "Y": 78
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnLogin",
+          "Caption": "Conecte-se",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário para registrar um usuário em uma caixa combinada para seleção de função e um botão de envio.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmUserRole",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "CmbRoles",
+          "Position": {
+            "X": 50,
+            "Y": 40
+          },
+          "Width": 200,
+          "Items": [
+            "Admin",
+            "User",
+            "Guest"
+          ]
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 50,
+            "Y": 90
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário para registrar um usuário em uma caixa combinada para seleção de função e um botão de envio.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmUserRole",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "CmbRoles",
+          "Position": {
+            "X": 50,
+            "Y": 40
+          },
+          "Width": 200,
+          "Items": [
+            "Admin",
+            "User",
+            "Guest"
+          ]
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 50,
+            "Y": 90
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário que inclua um painel rotulado como 'Informações do usuário' e duas etiquetas para o nome e o email.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmUserInfo",
+      "Children": [
+        {
+          "Type": "TPanel",
+          "Name": "PnlUserInfo",
+          "Caption": "Informações do usuário",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 300,
+          "Height": 120,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblNome",
+              "Caption": "Nome:",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              }
+            },
+            {
+              "Type": "TLabel",
+              "Name": "LblEmail",
+              "Caption": "E-mail:",
+              "Position": {
+                "X": 10,
+                "Y": 40
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário simples com um único botão rotulado como 'OK'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSimpleButton",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnOK",
+          "Caption": "OK",
+          "Position": {
+            "X": 100,
+            "Y": 50
+          },
+          "Width": 80,
+          "Height": 30
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Nome' e um campo de edição de texto.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmNameInput",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblNome",
+          "Text": "Nome:",
+          "Position": {
+            "X": 20,
+            "Y": 20
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtName",
+          "Position": {
+            "X": 80,
+            "Y": 18
+          },
+          "Width": 200
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com dois botões: 'Sim' e 'Não'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmYesNo",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnYes",
+          "Caption": "Sim",
+          "Position": {
+            "X": 50,
+            "Y": 40
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnNo",
+          "Caption": "Não",
+          "Position": {
+            "X": 150,
+            "Y": 40
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma caixa de seleção rotulada 'Aceitar Termos'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmAcceptTerms",
+      "Children": [
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkAcceptTerms",
+          "Caption": "Aceitar termos",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com uma caixa combinada com itens 'vermelho', 'verde', 'azul'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmColorSelect",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "CmbColor",
+          "Position": {
+            "X": 40,
+            "Y": 40
+          },
+          "Width": 120,
+          "Items": [
+            "Red",
+            "Green",
+            "Blue"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gerar um rótulo com a posição x: 20, y: 20 e largura 300 e altura 200",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmScrollBox",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "Label1",
+          "Position": {
+            "X": 20,
+            "Y": 20
+          },
+          "Width": 300,
+          "Height": 200
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois ComboBoxes lado a lado com itens 'Item 1' a 'Item 3' e 'A' To 'C'",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmComboExample",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "ComboBox1",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 150,
+          "Items": [
+            "Item 1",
+            "Item 2",
+            "Item 3"
+          ]
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "ComboBox2",
+          "Position": {
+            "X": 200,
+            "Y": 30
+          },
+          "Width": 150,
+          "Items": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um sistema completo com tela de login, registro de pessoas, registro de clientes, registro de fornecedores, tela principal e gerador de relatórios, cada um como um formulário separado e com campos detalhados.",
+    "output": {
+      "Forms": [
+        {
+          "Name": "FrmLogin",
+          "Caption": "Login do sistema",
+          "Type": "TForm",
+          "Align": "Client",
+          "Children": [
+            {
+              "Name": "LblTitleLogin",
+              "Type": "TLabel",
+              "Text": "Bem-vindo",
+              "Position": {
+                "X": 100,
+                "Y": 20
+              },
+              "Width": 200,
+              "Height": 30,
+              "FontSize": 16,
+              "FontStyle": [
+                "Bold"
+              ]
+            },
+            {
+              "Name": "LblUsuario",
+              "Type": "TLabel",
+              "Text": "User:",
+              "Position": {
+                "X": 60,
+                "Y": 70
+              },
+              "Width": 80,
+              "Height": 20
+            },
+            {
+              "Name": "EdtUser",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 140,
+                "Y": 65
+              },
+              "Width": 180,
+              "Height": 30
+            },
+            {
+              "Name": "LblSenha",
+              "Type": "TLabel",
+              "Text": "Senha:",
+              "Position": {
+                "X": 60,
+                "Y": 110
+              },
+              "Width": 80,
+              "Height": 20
+            },
+            {
+              "Name": "EdtPassword",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 140,
+                "Y": 105
+              },
+              "Width": 180,
+              "Height": 30,
+              "PasswordChar": "*"
+            },
+            {
+              "Name": "BtnLogin",
+              "Type": "TButton",
+              "Caption": "Conecte-se",
+              "Position": {
+                "X": 140,
+                "Y": 160
+              },
+              "Width": 90,
+              "Height": 35
+            },
+            {
+              "Name": "BtnLostPassword",
+              "Type": "TButton",
+              "Caption": "Esqueceu sua senha",
+              "Position": {
+                "X": 230,
+                "Y": 160
+              },
+              "Width": 90,
+              "Height": 35
+            }
+          ]
+        },
+        {
+          "Name": "FrmMain",
+          "Caption": "Sistema principal",
+          "Type": "TForm",
+          "Align": "Client",
+          "Children": [
+            {
+              "Name": "LblWelcome",
+              "Type": "TLabel",
+              "Text": "Bem -vindo ao sistema",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              },
+              "Width": 300,
+              "Height": 30,
+              "FontSize": 16,
+              "FontStyle": [
+                "Bold"
+              ]
+            },
+            {
+              "Name": "BtnRegisterCustomer",
+              "Type": "TButton",
+              "Caption": "Registro do cliente",
+              "Position": {
+                "X": 10,
+                "Y": 60
+              },
+              "Width": 180,
+              "Height": 40
+            },
+            {
+              "Name": "BtnRegisterFornecedor",
+              "Type": "TButton",
+              "Caption": "Registro de fornecedores",
+              "Position": {
+                "X": 200,
+                "Y": 60
+              },
+              "Width": 180,
+              "Height": 40
+            },
+            {
+              "Name": "BtnRegisterPeople",
+              "Type": "TButton",
+              "Caption": "Registro de pessoas",
+              "Position": {
+                "X": 390,
+                "Y": 60
+              },
+              "Width": 180,
+              "Height": 40
+            },
+            {
+              "Name": "BtnGenerateReport",
+              "Type": "TButton",
+              "Caption": "Gerador de relatório",
+              "Position": {
+                "X": 10,
+                "Y": 110
+              },
+              "Width": 180,
+              "Height": 40
+            },
+            {
+              "Name": "BtnExit",
+              "Type": "TButton",
+              "Caption": "Saída",
+              "Position": {
+                "X": 10,
+                "Y": 170
+              },
+              "Width": 100,
+              "Height": 35
+            }
+          ]
+        },
+        {
+          "Name": "FrmReportGenerator",
+          "Caption": "Gerador de relatório",
+          "Type": "TForm",
+          "Align": "Client",
+          "Children": [
+            {
+              "Name": "LblTitleReport",
+              "Type": "TLabel",
+              "Text": "Gerador de relatório",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              },
+              "Width": 300,
+              "Height": 30,
+              "FontSize": 16,
+              "FontStyle": [
+                "Bold"
+              ]
+            },
+            {
+              "Name": "LblTipoReport",
+              "Type": "TLabel",
+              "Text": "Tipo de relatório:",
+              "Position": {
+                "X": 10,
+                "Y": 60
+              },
+              "Width": 120,
+              "Height": 20
+            },
+            {
+              "Name": "CmbTipoReport",
+              "Type": "TComboBox",
+              "Items": [
+                "Customers",
+                "Suppliers",
+                "Sales",
+                "Products"
+              ],
+              "Position": {
+                "X": 140,
+                "Y": 55
+              },
+              "Width": 200,
+              "Height": 30
+            },
+            {
+              "Name": "LblPeriod",
+              "Type": "TLabel",
+              "Text": "Período:",
+              "Position": {
+                "X": 10,
+                "Y": 100
+              },
+              "Width": 80,
+              "Height": 20
+            },
+            {
+              "Name": "DtInicial",
+              "Type": "TDateTimePicker",
+              "Position": {
+                "X": 90,
+                "Y": 95
+              },
+              "Width": 120,
+              "Height": 30
+            },
+            {
+              "Name": "LblUntil",
+              "Type": "TLabel",
+              "Text": "para",
+              "Position": {
+                "X": 220,
+                "Y": 100
+              },
+              "Width": 30,
+              "Height": 20
+            },
+            {
+              "Name": "DtEnd",
+              "Type": "TDateTimePicker",
+              "Position": {
+                "X": 260,
+                "Y": 95
+              },
+              "Width": 120,
+              "Height": 30
+            },
+            {
+              "Name": "LblFilter",
+              "Type": "TLabel",
+              "Text": "Filtro:",
+              "Position": {
+                "X": 10,
+                "Y": 140
+              },
+              "Width": 80,
+              "Height": 20
+            },
+            {
+              "Name": "EdtFilter",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 90,
+                "Y": 135
+              },
+              "Width": 290,
+              "Height": 30
+            },
+            {
+              "Name": "BtnGenerate",
+              "Type": "TButton",
+              "Caption": "Gerar relatório",
+              "Position": {
+                "X": 10,
+                "Y": 180
+              },
+              "Width": 150,
+              "Height": 40
+            },
+            {
+              "Name": "BtnExportPDF",
+              "Type": "TButton",
+              "Caption": "Exportar PDF",
+              "Position": {
+                "X": 170,
+                "Y": 180
+              },
+              "Width": 120,
+              "Height": 40
+            },
+            {
+              "Name": "BtnSendMail",
+              "Type": "TButton",
+              "Caption": "Enviar por correio",
+              "Position": {
+                "X": 300,
+                "Y": 180
+              },
+              "Width": 120,
+              "Height": 40
+            },
+            {
+              "Name": "GridReport",
+              "Type": "TStringGrid",
+              "Position": {
+                "X": 10,
+                "Y": 240
+              },
+              "Width": 600,
+              "Height": 200
+            }
+          ]
+        },
+        {
+          "Name": "FrmPeopleRegistration",
+          "Caption": "Registro de pessoas",
+          "Type": "TForm",
+          "Align": "Client",
+          "Children": [
+            {
+              "Name": "LblTitlePeople",
+              "Type": "TLabel",
+              "Text": "Registro de pessoas",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              },
+              "Width": 300,
+              "Height": 30,
+              "FontSize": 16,
+              "FontStyle": [
+                "Bold"
+              ]
+            },
+            {
+              "Name": "LblTipoPeople",
+              "Type": "TLabel",
+              "Text": "Tipo:",
+              "Position": {
+                "X": 10,
+                "Y": 50
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "CmbTipoPeople",
+              "Type": "TComboBox",
+              "Items": [
+                "Individual",
+                "Company"
+              ],
+              "Position": {
+                "X": 80,
+                "Y": 45
+              },
+              "Width": 120,
+              "Height": 30
+            },
+            {
+              "Name": "LblCompanyName",
+              "Type": "TLabel",
+              "Text": "Nome/Nome da empresa:",
+              "Position": {
+                "X": 10,
+                "Y": 90
+              },
+              "Width": 130,
+              "Height": 20
+            },
+            {
+              "Name": "EdtCompanyName",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 150,
+                "Y": 85
+              },
+              "Width": 300,
+              "Height": 30
+            },
+            {
+              "Name": "LblFantasyName",
+              "Type": "TLabel",
+              "Text": "Nome do apelido/comércio:",
+              "Position": {
+                "X": 10,
+                "Y": 130
+              },
+              "Width": 120,
+              "Height": 20
+            },
+            {
+              "Name": "EdtFantasyName",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 150,
+                "Y": 125
+              },
+              "Width": 300,
+              "Height": 30
+            },
+            {
+              "Name": "LblDocument",
+              "Type": "TLabel",
+              "Text": "CPF/CNPJ:",
+              "Position": {
+                "X": 10,
+                "Y": 170
+              },
+              "Width": 80,
+              "Height": 20
+            },
+            {
+              "Name": "EdtDocument",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 100,
+                "Y": 165
+              },
+              "Width": 150,
+              "Height": 30
+            },
+            {
+              "Name": "LblRGStateRegistration",
+              "Type": "TLabel",
+              "Text": "RG/registro estadual:",
+              "Position": {
+                "X": 270,
+                "Y": 170
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtRGStateRegistration",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 340,
+                "Y": 165
+              },
+              "Width": 110,
+              "Height": 30
+            },
+            {
+              "Name": "LblTelefone",
+              "Type": "TLabel",
+              "Text": "Telefone:",
+              "Position": {
+                "X": 10,
+                "Y": 210
+              },
+              "Width": 80,
+              "Height": 20
+            },
+            {
+              "Name": "EdtPhone",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 100,
+                "Y": 205
+              },
+              "Width": 150,
+              "Height": 30
+            },
+            {
+              "Name": "LblMail",
+              "Type": "TLabel",
+              "Text": "Correspondência:",
+              "Position": {
+                "X": 270,
+                "Y": 210
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtMail",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 340,
+                "Y": 205
+              },
+              "Width": 200,
+              "Height": 30
+            },
+            {
+              "Name": "LblEndereco",
+              "Type": "TLabel",
+              "Text": "Endereço:",
+              "Position": {
+                "X": 10,
+                "Y": 250
+              },
+              "Width": 80,
+              "Height": 20
+            },
+            {
+              "Name": "EdtAddress",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 100,
+                "Y": 245
+              },
+              "Width": 440,
+              "Height": 30
+            },
+            {
+              "Name": "LblNumber",
+              "Type": "TLabel",
+              "Text": "Número:",
+              "Position": {
+                "X": 10,
+                "Y": 290
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtNumber",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 80,
+                "Y": 285
+              },
+              "Width": 80,
+              "Height": 30
+            },
+            {
+              "Name": "LblDistrict",
+              "Type": "TLabel",
+              "Text": "Distrito:",
+              "Position": {
+                "X": 180,
+                "Y": 290
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtDistrict",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 240,
+                "Y": 285
+              },
+              "Width": 140,
+              "Height": 30
+            },
+            {
+              "Name": "LblCidade",
+              "Type": "TLabel",
+              "Text": "Cidade:",
+              "Position": {
+                "X": 400,
+                "Y": 290
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtCity",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 460,
+                "Y": 285
+              },
+              "Width": 140,
+              "Height": 30
+            },
+            {
+              "Name": "LblEstado",
+              "Type": "TLabel",
+              "Text": "State:",
+              "Position": {
+                "X": 10,
+                "Y": 330
+              },
+              "Width": 30,
+              "Height": 20
+            },
+            {
+              "Name": "EdtState",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 50,
+                "Y": 325
+              },
+              "Width": 40,
+              "Height": 30
+            },
+            {
+              "Name": "LblZIPCode",
+              "Type": "TLabel",
+              "Text": "CEP:",
+              "Position": {
+                "X": 110,
+                "Y": 330
+              },
+              "Width": 40,
+              "Height": 20
+            },
+            {
+              "Name": "EdtZIPCode",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 150,
+                "Y": 325
+              },
+              "Width": 100,
+              "Height": 30
+            },
+            {
+              "Name": "LblTipoRegister",
+              "Type": "TLabel",
+              "Text": "Tipo de registro:",
+              "Position": {
+                "X": 270,
+                "Y": 330
+              },
+              "Width": 110,
+              "Height": 20
+            },
+            {
+              "Name": "CmbTipoRegister",
+              "Type": "TComboBox",
+              "Items": [
+                "Customer",
+                "Supplier",
+                "Both"
+              ],
+              "Position": {
+                "X": 390,
+                "Y": 325
+              },
+              "Width": 120,
+              "Height": 30
+            },
+            {
+              "Name": "BtnSalvarPeople",
+              "Type": "TButton",
+              "Caption": "Salvar",
+              "Position": {
+                "X": 10,
+                "Y": 380
+              },
+              "Width": 120,
+              "Height": 40
+            },
+            {
+              "Name": "BtnCancelarPeople",
+              "Type": "TButton",
+              "Caption": "Cancelar",
+              "Position": {
+                "X": 140,
+                "Y": 380
+              },
+              "Width": 120,
+              "Height": 40
+            }
+          ]
+        },
+        {
+          "Name": "FrmSupplierRegistration",
+          "Caption": "Registro de fornecedores",
+          "Type": "TForm",
+          "Align": "Client",
+          "Children": [
+            {
+              "Name": "LblTitleFornecedor",
+              "Type": "TLabel",
+              "Text": "Registro de fornecedores",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              },
+              "Width": 300,
+              "Height": 30,
+              "FontSize": 16,
+              "FontStyle": [
+                "Bold"
+              ]
+            },
+            {
+              "Name": "LblCompanyName",
+              "Type": "TLabel",
+              "Text": "Nome da empresa:",
+              "Position": {
+                "X": 10,
+                "Y": 50
+              },
+              "Width": 100,
+              "Height": 20
+            },
+            {
+              "Name": "EdtCompanyName",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 120,
+                "Y": 45
+              },
+              "Width": 300,
+              "Height": 30
+            },
+            {
+              "Name": "LblTradeName",
+              "Type": "TLabel",
+              "Text": "Nome comercial:",
+              "Position": {
+                "X": 10,
+                "Y": 90
+              },
+              "Width": 100,
+              "Height": 20
+            },
+            {
+              "Name": "EdtTradeName",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 120,
+                "Y": 85
+              },
+              "Width": 300,
+              "Height": 30
+            },
+            {
+              "Name": "LblCNPJ",
+              "Type": "TLabel",
+              "Text": "CNPJ:",
+              "Position": {
+                "X": 10,
+                "Y": 130
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtCNPJ",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 80,
+                "Y": 125
+              },
+              "Width": 150,
+              "Height": 30
+            },
+            {
+              "Name": "LblStateRegistration",
+              "Type": "TLabel",
+              "Text": "Registro estadual:",
+              "Position": {
+                "X": 250,
+                "Y": 130
+              },
+              "Width": 120,
+              "Height": 20
+            },
+            {
+              "Name": "EdtStateRegistration",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 380,
+                "Y": 125
+              },
+              "Width": 120,
+              "Height": 30
+            },
+            {
+              "Name": "LblContato",
+              "Type": "TLabel",
+              "Text": "Contato:",
+              "Position": {
+                "X": 10,
+                "Y": 170
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtContact",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 80,
+                "Y": 165
+              },
+              "Width": 200,
+              "Height": 30
+            },
+            {
+              "Name": "LblTelefone",
+              "Type": "TLabel",
+              "Text": "Telefone:",
+              "Position": {
+                "X": 300,
+                "Y": 170
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtPhone",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 370,
+                "Y": 165
+              },
+              "Width": 130,
+              "Height": 30
+            },
+            {
+              "Name": "LblMail",
+              "Type": "TLabel",
+              "Text": "Correspondência:",
+              "Position": {
+                "X": 10,
+                "Y": 210
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtMail",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 80,
+                "Y": 205
+              },
+              "Width": 250,
+              "Height": 30
+            },
+            {
+              "Name": "LblEndereco",
+              "Type": "TLabel",
+              "Text": "Endereço:",
+              "Position": {
+                "X": 10,
+                "Y": 250
+              },
+              "Width": 80,
+              "Height": 20
+            },
+            {
+              "Name": "EdtAddress",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 100,
+                "Y": 245
+              },
+              "Width": 400,
+              "Height": 30
+            },
+            {
+              "Name": "LblNumber",
+              "Type": "TLabel",
+              "Text": "Número:",
+              "Position": {
+                "X": 10,
+                "Y": 290
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtNumber",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 80,
+                "Y": 285
+              },
+              "Width": 80,
+              "Height": 30
+            },
+            {
+              "Name": "LblDistrict",
+              "Type": "TLabel",
+              "Text": "Distrito:",
+              "Position": {
+                "X": 180,
+                "Y": 290
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtDistrict",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 240,
+                "Y": 285
+              },
+              "Width": 140,
+              "Height": 30
+            },
+            {
+              "Name": "LblCidade",
+              "Type": "TLabel",
+              "Text": "Cidade:",
+              "Position": {
+                "X": 400,
+                "Y": 290
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtCity",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 460,
+                "Y": 285
+              },
+              "Width": 140,
+              "Height": 30
+            },
+            {
+              "Name": "LblEstado",
+              "Type": "TLabel",
+              "Text": "State:",
+              "Position": {
+                "X": 10,
+                "Y": 330
+              },
+              "Width": 30,
+              "Height": 20
+            },
+            {
+              "Name": "EdtState",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 50,
+                "Y": 325
+              },
+              "Width": 40,
+              "Height": 30
+            },
+            {
+              "Name": "LblZIPCode",
+              "Type": "TLabel",
+              "Text": "CEP:",
+              "Position": {
+                "X": 110,
+                "Y": 330
+              },
+              "Width": 40,
+              "Height": 20
+            },
+            {
+              "Name": "EdtZIPCode",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 150,
+                "Y": 325
+              },
+              "Width": 100,
+              "Height": 30
+            },
+            {
+              "Name": "BtnSaveSupplier",
+              "Type": "TButton",
+              "Caption": "Salvar",
+              "Position": {
+                "X": 10,
+                "Y": 380
+              },
+              "Width": 120,
+              "Height": 40
+            },
+            {
+              "Name": "BtnCancelSupplier",
+              "Type": "TButton",
+              "Caption": "Cancelar",
+              "Position": {
+                "X": 140,
+                "Y": 380
+              },
+              "Width": 120,
+              "Height": 40
+            }
+          ]
+        },
+        {
+          "Name": "FrmCustomerRegistration",
+          "Caption": "Registro do cliente",
+          "Type": "TForm",
+          "Align": "Client",
+          "Children": [
+            {
+              "Name": "LblTitleCustomer",
+              "Type": "TLabel",
+              "Text": "Registro do cliente",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              },
+              "Width": 300,
+              "Height": 30,
+              "FontSize": 16,
+              "FontStyle": [
+                "Bold"
+              ]
+            },
+            {
+              "Name": "LblFullName",
+              "Type": "TLabel",
+              "Text": "Nome completo:",
+              "Position": {
+                "X": 10,
+                "Y": 50
+              },
+              "Width": 120,
+              "Height": 20
+            },
+            {
+              "Name": "EdtFullName",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 140,
+                "Y": 45
+              },
+              "Width": 300,
+              "Height": 30
+            },
+            {
+              "Name": "LblCPF",
+              "Type": "TLabel",
+              "Text": "CPF:",
+              "Position": {
+                "X": 10,
+                "Y": 90
+              },
+              "Width": 40,
+              "Height": 20
+            },
+            {
+              "Name": "EdtCPF",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 60,
+                "Y": 85
+              },
+              "Width": 120,
+              "Height": 30
+            },
+            {
+              "Name": "LblRG",
+              "Type": "TLabel",
+              "Text": "RG:",
+              "Position": {
+                "X": 200,
+                "Y": 90
+              },
+              "Width": 30,
+              "Height": 20
+            },
+            {
+              "Name": "EdtRG",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 240,
+                "Y": 85
+              },
+              "Width": 120,
+              "Height": 30
+            },
+            {
+              "Name": "LblBirthDate",
+              "Type": "TLabel",
+              "Text": "Data de nascimento:",
+              "Position": {
+                "X": 10,
+                "Y": 130
+              },
+              "Width": 130,
+              "Height": 20
+            },
+            {
+              "Name": "DtNascimento",
+              "Type": "TDateTimePicker",
+              "Position": {
+                "X": 150,
+                "Y": 125
+              },
+              "Width": 120,
+              "Height": 30
+            },
+            {
+              "Name": "LblTelefone",
+              "Type": "TLabel",
+              "Text": "Telefone:",
+              "Position": {
+                "X": 10,
+                "Y": 170
+              },
+              "Width": 80,
+              "Height": 20
+            },
+            {
+              "Name": "EdtPhone",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 100,
+                "Y": 165
+              },
+              "Width": 120,
+              "Height": 30
+            },
+            {
+              "Name": "LblMail",
+              "Type": "TLabel",
+              "Text": "Correspondência:",
+              "Position": {
+                "X": 240,
+                "Y": 170
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtMail",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 310,
+                "Y": 165
+              },
+              "Width": 200,
+              "Height": 30
+            },
+            {
+              "Name": "LblEndereco",
+              "Type": "TLabel",
+              "Text": "Endereço:",
+              "Position": {
+                "X": 10,
+                "Y": 210
+              },
+              "Width": 80,
+              "Height": 20
+            },
+            {
+              "Name": "EdtAddress",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 100,
+                "Y": 205
+              },
+              "Width": 410,
+              "Height": 30
+            },
+            {
+              "Name": "LblNumber",
+              "Type": "TLabel",
+              "Text": "Número:",
+              "Position": {
+                "X": 10,
+                "Y": 250
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtNumber",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 80,
+                "Y": 245
+              },
+              "Width": 80,
+              "Height": 30
+            },
+            {
+              "Name": "LblDistrict",
+              "Type": "TLabel",
+              "Text": "Distrito:",
+              "Position": {
+                "X": 180,
+                "Y": 250
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtDistrict",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 240,
+                "Y": 245
+              },
+              "Width": 140,
+              "Height": 30
+            },
+            {
+              "Name": "LblCidade",
+              "Type": "TLabel",
+              "Text": "Cidade:",
+              "Position": {
+                "X": 400,
+                "Y": 250
+              },
+              "Width": 60,
+              "Height": 20
+            },
+            {
+              "Name": "EdtCity",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 460,
+                "Y": 245
+              },
+              "Width": 140,
+              "Height": 30
+            },
+            {
+              "Name": "LblEstado",
+              "Type": "TLabel",
+              "Text": "State:",
+              "Position": {
+                "X": 10,
+                "Y": 290
+              },
+              "Width": 30,
+              "Height": 20
+            },
+            {
+              "Name": "EdtState",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 50,
+                "Y": 285
+              },
+              "Width": 40,
+              "Height": 30
+            },
+            {
+              "Name": "LblZIPCode",
+              "Type": "TLabel",
+              "Text": "CEP:",
+              "Position": {
+                "X": 110,
+                "Y": 290
+              },
+              "Width": 40,
+              "Height": 20
+            },
+            {
+              "Name": "EdtZIPCode",
+              "Type": "TEdit",
+              "Text": "",
+              "Position": {
+                "X": 150,
+                "Y": 285
+              },
+              "Width": 100,
+              "Height": 30
+            },
+            {
+              "Name": "BtnSalvarCustomer",
+              "Type": "TButton",
+              "Caption": "Salvar",
+              "Position": {
+                "X": 10,
+                "Y": 340
+              },
+              "Width": 120,
+              "Height": 40
+            },
+            {
+              "Name": "BtnCancelarCustomer",
+              "Type": "TButton",
+              "Caption": "Cancelar",
+              "Position": {
+                "X": 140,
+                "Y": 340
+              },
+              "Width": 120,
+              "Height": 40
+            }
+          ]
+        },
+        {
+          "Name": "FrmRegisterCustomer",
+          "Caption": "Registro do cliente",
+          "Type": "TForm",
+          "Align": "Client",
+          "Children": [
+            {
+              "Type": "TComboBox",
+              "Name": "ComboBox1",
+              "Position": {
+                "X": 30,
+                "Y": 30
+              },
+              "Width": 150,
+              "Items": [
+                "Item 1",
+                "Item 2",
+                "Item 3"
+              ]
+            },
+            {
+              "Type": "TComboBox",
+              "Name": "ComboBox2",
+              "Position": {
+                "X": 30,
+                "Y": 70
+              },
+              "Width": 150,
+              "Items": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "Type": "TEdit",
+              "Name": "Edit1",
+              "Position": {
+                "X": 30,
+                "Y": 110
+              },
+              "Width": 200,
+              "Text": "Digite aqui"
+            },
+            {
+              "Type": "TDateTimePicker",
+              "Name": "DateTimePicker1",
+              "Position": {
+                "X": 30,
+                "Y": 150
+              }
+            },
+            {
+              "Type": "TCheckBox",
+              "Name": "CheckBox1",
+              "Position": {
+                "X": 250,
+                "Y": 30
+              },
+              "Caption": "Verifique -me"
+            },
+            {
+              "Type": "TCheckBox",
+              "Name": "CheckBox2",
+              "Position": {
+                "X": 250,
+                "Y": 60
+              },
+              "Caption": "Outra caixa de seleção"
+            },
+            {
+              "Type": "TCheckBox",
+              "Name": "CheckBox3",
+              "Position": {
+                "X": 250,
+                "Y": 90
+              },
+              "Caption": "Caixa de seleção extra"
+            },
+            {
+              "Type": "TRadioButton",
+              "Name": "RadioButton1",
+              "Position": {
+                "X": 250,
+                "Y": 130
+              },
+              "Caption": "Opção de rádio"
+            },
+            {
+              "Type": "TRadioGroup",
+              "Name": "RadioGroup1",
+              "Position": {
+                "X": 250,
+                "Y": 180
+              },
+              "Caption": "Escolha um",
+              "Items": [
+                "Option A",
+                "Option B"
+              ]
+            },
+            {
+              "Type": "TPanel",
+              "Name": "Panel1",
+              "Position": {
+                "X": 500,
+                "Y": 30
+              },
+              "Width": 200,
+              "Height": 100,
+              "Caption": "Painel"
+            },
+            {
+              "Type": "TPanel",
+              "Name": "Panel2",
+              "Position": {
+                "X": 500,
+                "Y": 140
+              },
+              "Width": 200,
+              "Height": 100,
+              "Color": "#0000FF",
+              "Caption": "Segundo painel"
+            },
+            {
+              "Type": "TShape",
+              "Name": "Shape1",
+              "Position": {
+                "X": 500,
+                "Y": 250
+              },
+              "Shape": "stRectangle",
+              "Width": 50,
+              "Height": 50
+            },
+            {
+              "Type": "TButton",
+              "Name": "Button1",
+              "Position": {
+                "X": 30,
+                "Y": 200
+              },
+              "Caption": "Clique em mim"
+            },
+            {
+              "Type": "TBitBtn",
+              "Name": "BitBtn1",
+              "Position": {
+                "X": 120,
+                "Y": 200
+              },
+              "Caption": "Botão de bit",
+              "Kind": "bkOK"
+            },
+            {
+              "Type": "TSpeedButton",
+              "Name": "SpeedButton1",
+              "Position": {
+                "X": 220,
+                "Y": 200
+              },
+              "Caption": "Velocidade"
+            },
+            {
+              "Type": "TStringGrid",
+              "Name": "StringGrid1",
+              "Position": {
+                "X": 30,
+                "Y": 250
+              },
+              "ColCount": 3,
+              "RowCount": 5,
+              "Width": 300,
+              "Height": 100
+            },
+            {
+              "Type": "TDBGrid",
+              "Name": "DBGrid1",
+              "Position": {
+                "X": 30,
+                "Y": 360
+              },
+              "Width": 470,
+              "Height": 120
+            },
+            {
+              "Type": "TMemo",
+              "Name": "TMemo1",
+              "Position": {
+                "X": 520,
+                "Y": 310
+              },
+              "Width": 180,
+              "Height": 60,
+              "Lines": [
+                "Line 1",
+                "Line 2"
+              ]
+            },
+            {
+              "Type": "TListBox",
+              "Name": "ListBox1",
+              "Position": {
+                "X": 520,
+                "Y": 380
+              },
+              "Items": [
+                "Option 1",
+                "Option 2"
+              ]
+            },
+            {
+              "Type": "TGroupBox",
+              "Name": "GroupBox1",
+              "Position": {
+                "X": 30,
+                "Y": 500
+              },
+              "Width": 300,
+              "Height": 100,
+              "Caption": "Seção de grupo"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário de login com campos para nome de usuário, senha e uma caixa de seleção Lembre -me de mim.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLogin",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblUsuario",
+          "Caption": "Nome de usuário:",
+          "Position": {
+            "X": 30,
+            "Y": 40
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtUser",
+          "Position": {
+            "X": 110,
+            "Y": 38
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblSenha",
+          "Caption": "Senha:",
+          "Position": {
+            "X": 30,
+            "Y": 80
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*",
+          "Position": {
+            "X": 110,
+            "Y": 78
+          }
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkRemember",
+          "Caption": "Lembre de mim",
+          "Position": {
+            "X": 110,
+            "Y": 110
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnLogin",
+          "Caption": "Conecte-se",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário de registro com campos para nome, email, senha e um botão Enviar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmRegister",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblNome",
+          "Caption": "Nome:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtName",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblEmail",
+          "Caption": "E-mail:",
+          "Position": {
+            "X": 30,
+            "Y": 70
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtEmail",
+          "Position": {
+            "X": 110,
+            "Y": 68
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblSenha",
+          "Caption": "Senha:",
+          "Position": {
+            "X": 30,
+            "Y": 110
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*",
+          "Position": {
+            "X": 110,
+            "Y": 108
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 110,
+            "Y": 150
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário de contato com campos para telefone, email e um memorando de mensagem.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmContact",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblTelefone",
+          "Caption": "Telefone:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPhone",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblEmail",
+          "Caption": "E-mail:",
+          "Position": {
+            "X": 30,
+            "Y": 70
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtEmail",
+          "Position": {
+            "X": 110,
+            "Y": 68
+          }
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblMessage",
+          "Caption": "Mensagem:",
+          "Position": {
+            "X": 30,
+            "Y": 110
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoMessage",
+          "Position": {
+            "X": 110,
+            "Y": 108
+          },
+          "Width": 200,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSend",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 110,
+            "Y": 200
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma caixa combinada para seleção de países e um botão para confirmar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCountry",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPais",
+          "Caption": "País:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbCountry",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Items": [
+            "USA",
+            "Brazil",
+            "Germany",
+            "Japan"
+          ]
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnConfirm",
+          "Caption": "Confirmar",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um grupo de rádio para seleção de gênero e um botão de envio.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmGender",
+      "Children": [
+        {
+          "Type": "TRadioGroup",
+          "Name": "RdgGender",
+          "Caption": "Gênero",
+          "Items": [
+            "Male",
+            "Female",
+            "Other"
+          ],
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 30,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma caixa de listagem para selecionar hobbies e um botão Salvar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmHobbies",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblHobbies",
+          "Caption": "Hobbies:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstHobbies",
+          "Items": [
+            "Reading",
+            "Sports",
+            "Music",
+            "Travel"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 150,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Salvar",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um selecionador de data para a data de nascimento e um botão Confirmar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmBirthDate",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblBirthDate",
+          "Caption": "Data de nascimento:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TDateTimePicker",
+          "Name": "DtpBirthDate",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnConfirm",
+          "Caption": "Confirmar",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma grade para a lista de produtos e um botão para exportar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmProductList",
+      "Children": [
+        {
+          "Type": "TStringGrid",
+          "Name": "GridProducts",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "ColCount": 3,
+          "RowCount": 10,
+          "Width": 400,
+          "Height": 200
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnExport",
+          "Caption": "Exportar",
+          "Position": {
+            "X": 30,
+            "Y": 250
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com dois painéis, cada um com um rótulo e um botão.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPanels",
+      "Children": [
+        {
+          "Type": "TPanel",
+          "Name": "Pnl1",
+          "Caption": "Painel 1",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 200,
+          "Height": 100,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblP1",
+              "Caption": "Primeiro painel",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              }
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnP1",
+              "Caption": "OK",
+              "Position": {
+                "X": 10,
+                "Y": 50
+              }
+            }
+          ]
+        },
+        {
+          "Type": "TPanel",
+          "Name": "Pnl2",
+          "Caption": "Painel 2",
+          "Position": {
+            "X": 250,
+            "Y": 30
+          },
+          "Width": 200,
+          "Height": 100,
+          "Children": [
+            {
+              "Type": "TLabel",
+              "Name": "LblP2",
+              "Caption": "Segundo painel",
+              "Position": {
+                "X": 10,
+                "Y": 10
+              }
+            },
+            {
+              "Type": "TButton",
+              "Name": "BtnP2",
+              "Caption": "Cancelar",
+              "Position": {
+                "X": 10,
+                "Y": 50
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um campo de senha e uma caixa de seleção Mostrar senha.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPassword",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblSenha",
+          "Caption": "Senha:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkShow",
+          "Caption": "Mostre a senha",
+          "Position": {
+            "X": 110,
+            "Y": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um memorando para anotações e um botão de salvar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmNotes",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblNotas",
+          "Caption": "Notas:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoNotes",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Salvar",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma caixa de grupo contendo dois botões de rádio.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmGroupRadio",
+      "Children": [
+        {
+          "Type": "TGroupBox",
+          "Name": "GrpOptions",
+          "Caption": "Opções",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 200,
+          "Height": 100,
+          "Children": [
+            {
+              "Type": "TRadioButton",
+              "Name": "RdoA",
+              "Caption": "Opção a",
+              "Position": {
+                "X": 10,
+                "Y": 20
+              }
+            },
+            {
+              "Type": "TRadioButton",
+              "Name": "RdoB",
+              "Caption": "Opção b",
+              "Position": {
+                "X": 10,
+                "Y": 50
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, um campo de edição e um botão para limpar o campo.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmClearField",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblInput",
+          "Caption": "Entrada:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtInput",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnClear",
+          "Caption": "Clear",
+          "Position": {
+            "X": 110,
+            "Y": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma caixa combinada para selecionar uma cor e um painel que muda de cor.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmColorPanel",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "CmbColor",
+          "Items": [
+            "Red",
+            "Green",
+            "Blue"
+          ],
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TPanel",
+          "Name": "PnlColor",
+          "Caption": "Painel de cores",
+          "Position": {
+            "X": 30,
+            "Y": 70
+          },
+          "Width": 200,
+          "Height": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma barra de progresso e um botão para iniciar o progresso.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmProgress",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblProgress",
+          "Caption": "Progresso:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TProgressBar",
+          "Name": "PrgBar",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnStart",
+          "Caption": "Começar",
+          "Position": {
+            "X": 110,
+            "Y": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um controle de guia com duas guias: informações e configurações.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmTabs",
+      "Children": [
+        {
+          "Type": "TTabControl",
+          "Name": "TabMain",
+          "Tabs": [
+            "Info",
+            "Settings"
+          ],
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 300,
+          "Height": 200
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, um controle deslizante e uma exibição de valor.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSlider",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblVolume",
+          "Caption": "Volume:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TTrackBar",
+          "Name": "TrkVolume",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200
+        },
+        {
+          "Type": "TLabel",
+          "Name": "LblValue",
+          "Caption": "50",
+          "Position": {
+            "X": 320,
+            "Y": 28
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma caixa de pesquisa e uma caixa de listagem para obter resultados.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSearch",
+      "Children": [
+        {
+          "Type": "TEdit",
+          "Name": "EdtSearch",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Width": 200,
+          "Text": "Procurar..."
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstResults",
+          "Position": {
+            "X": 30,
+            "Y": 70
+          },
+          "Width": 200,
+          "Height": 100
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma edição de spin para quantidade e um botão para adicionar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmQuantity",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblQty",
+          "Caption": "Quantidade:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TSpinEdit",
+          "Name": "SpnQty",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnAdd",
+          "Caption": "Adicionar",
+          "Position": {
+            "X": 110,
+            "Y": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo do timer e um botão Iniciar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmTimer",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblTimer",
+          "Caption": "00:00",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "FontSize": 20
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnStart",
+          "Caption": "Começar",
+          "Position": {
+            "X": 110,
+            "Y": 30
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma edição de senha e um botão de mostrar/ocultar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmShowPassword",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblSenha",
+          "Caption": "Senha:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnShow",
+          "Caption": "Mostre/oculte",
+          "Position": {
+            "X": 250,
+            "Y": 28
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, uma caixa combinada para selecionar um departamento e um botão para filtrar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmDepartment",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblDept",
+          "Caption": "Departamento:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbDept",
+          "Items": [
+            "HR",
+            "IT",
+            "Sales"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnFilter",
+          "Caption": "Filtro",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, um calendário e um botão para selecionar uma data.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCalendar",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblDate",
+          "Caption": "Selecione Data:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMonthCalendar",
+          "Name": "CalDate",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSelect",
+          "Caption": "Selecione",
+          "Position": {
+            "X": 110,
+            "Y": 200
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, uma caixa de seleção para contrato e um botão Enviar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmAgreement",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblAgree",
+          "Caption": "Eu concordo com os termos",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkAgree",
+          "Caption": "Concordar",
+          "Position": {
+            "X": 30,
+            "Y": 60
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 30,
+            "Y": 100
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma caixa combinada para selecionar um idioma e um botão a ser aplicado.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLanguage",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblLang",
+          "Caption": "Linguagem:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbLang",
+          "Items": [
+            "English",
+            "Spanish",
+            "French"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnApply",
+          "Caption": "Aplicar",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, um memorando para feedback e um botão Enviar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmFeedback",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblFeedback",
+          "Caption": "Opinião:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoFeedback",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSend",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma caixa de listagem para selecionar itens e um botão para remover selecionados.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmRemoveItem",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblItems",
+          "Caption": "Unid:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstItems",
+          "Items": [
+            "Item 1",
+            "Item 2",
+            "Item 3"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 150,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnRemove",
+          "Caption": "Remover",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, uma caixa combinada para selecionar uma cidade e um botão para pesquisar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCitySearch",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblCidade",
+          "Caption": "Cidade:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbCity",
+          "Items": [
+            "New York",
+            "London",
+            "Tokyo"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSearch",
+          "Caption": "Procurar",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, um controle deslizante para classificação e um botão para enviar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmRating",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblRating",
+          "Caption": "Avaliação:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TTrackBar",
+          "Name": "TrkRating",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSubmit",
+          "Caption": "Enviar",
+          "Position": {
+            "X": 110,
+            "Y": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, uma caixa de seleção para assinatura de boletim informativo e um botão de registro.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmNewsletter",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblNewsletter",
+          "Caption": "Inscreva -se no boletim informativo",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkSubscribe",
+          "Caption": "Inscreva -se",
+          "Position": {
+            "X": 30,
+            "Y": 60
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnRegister",
+          "Caption": "Registrar",
+          "Position": {
+            "X": 30,
+            "Y": 100
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma caixa combinada para selecionar um estado e um botão para confirmar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmState",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblEstado",
+          "Caption": "State:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbState",
+          "Items": [
+            "California",
+            "Texas",
+            "Florida"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnConfirm",
+          "Caption": "Confirmar",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, um memorando para descrição e um botão Salvar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmDescription",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblDesc",
+          "Caption": "Descrição:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoDesc",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Salvar",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma caixa combinada para selecionar um ano e um botão para filtrar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmYear",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblYear",
+          "Caption": "Ano:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbYear",
+          "Items": [
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnFilter",
+          "Caption": "Filtro",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, uma caixa de listagem para selecionar frutas e um botão para adicionar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmFruits",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblFruits",
+          "Caption": "Frutas:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstFruits",
+          "Items": [
+            "Apple",
+            "Banana",
+            "Orange"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 150,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnAdd",
+          "Caption": "Adicionar",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma caixa combinada para selecionar uma marca de carro e um botão para pesquisar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCarBrand",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblBrand",
+          "Caption": "Marca de carros:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbBrand",
+          "Items": [
+            "Toyota",
+            "Ford",
+            "BMW"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSearch",
+          "Caption": "Procurar",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, uma caixa de seleção para aceitar termos e um botão Continuar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmTerms",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblTerms",
+          "Caption": "Aceite os termos para continuar",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkAccept",
+          "Caption": "aceito",
+          "Position": {
+            "X": 30,
+            "Y": 60
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnContinue",
+          "Caption": "Continuar",
+          "Position": {
+            "X": 30,
+            "Y": 100
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma caixa combinada para selecionar um continente e um botão para mostrar informações.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmContinent",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblContinent",
+          "Caption": "Continente:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbContinent",
+          "Items": [
+            "Asia",
+            "Europe",
+            "America"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnShow",
+          "Caption": "Mostre informações",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, um memorando para comentários e um botão para limpar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmComments",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblComments",
+          "Caption": "Comentários:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoComments",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnClear",
+          "Caption": "Clear",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma caixa combinada para selecionar um animal de estimação e um botão a adotar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPet",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPet",
+          "Caption": "Bicho de estimação:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbPet",
+          "Items": [
+            "Dog",
+            "Cat",
+            "Bird"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnAdopt",
+          "Caption": "Adotar",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, uma caixa de listagem para selecionar cursos e um botão para se inscrever.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCourses",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblCourses",
+          "Caption": "Cursos:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstCourses",
+          "Items": [
+            "Math",
+            "Science",
+            "History"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 150,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnEnroll",
+          "Caption": "Matricular",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma caixa combinada para selecionar um método de pagamento e um botão a pagar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPayment",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPayment",
+          "Caption": "Método de pagamento:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbPayment",
+          "Items": [
+            "Credit Card",
+            "PayPal",
+            "Bank Transfer"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnPay",
+          "Caption": "Pagar",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, um memorando para endereço e um botão para salvar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmAddress",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblEndereco",
+          "Caption": "Endereço:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoAddress",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Salvar",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma caixa combinada para selecionar um fuso horário e um botão para definir.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmTimeZone",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblTimeZone",
+          "Caption": "Fuso horário:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbTimeZone",
+          "Items": [
+            "UTC-3",
+            "UTC+0",
+            "UTC+8"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSet",
+          "Caption": "Definir",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, uma caixa de listagem para selecionar habilidades e um botão para adicionar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSkills",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblSkills",
+          "Caption": "Habilidades:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstSkills",
+          "Items": [
+            "Python",
+            "Java",
+            "C++"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 150,
+          "Height": 80
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnAdd",
+          "Caption": "Adicionar",
+          "Position": {
+            "X": 110,
+            "Y": 120
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Gere um formulário com um rótulo, uma caixa combinada para selecionar um projeto e um botão para abrir.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmProject",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblProject",
+          "Caption": "Projeto:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbProject",
+          "Items": [
+            "Alpha",
+            "Beta",
+            "Gamma"
+          ],
+          "Position": {
+            "X": 110,
+            "Y": 28
+          }
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnOpen",
+          "Caption": "Abrir",
+          "Position": {
+            "X": 110,
+            "Y": 70
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo, um memorando para biografia e um botão salvar.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmBiography",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblBio",
+          "Caption": "Biografia:",
+          "Position": {
+            "X": 30,
+            "Y": 30
+          }
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoBio",
+          "Position": {
+            "X": 110,
+            "Y": 28
+          },
+          "Width": 200,
+          "Height": 100
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnSave",
+          "Caption": "Salvar",
+          "Position": {
+            "X": 110,
+            "Y": 140
+          }
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um único botão OK.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmOk",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnOK",
+          "Caption": "OK"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Hello'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmHello",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblHello",
+          "Caption": "Olá"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um campo de texto.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmText",
+      "Children": [
+        {
+          "Type": "TEdit",
+          "Name": "EdtText"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um botão rotulado como 'Send'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSend",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnSend",
+          "Caption": "Enviar"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma caixa de seleção.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCheck",
+      "Children": [
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkOption",
+          "Caption": "Opção"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo e um botão.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLabelButton",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblInfo",
+          "Caption": "Informações"
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnAction",
+          "Caption": "Ação"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma caixa combinada.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCombo",
+      "Children": [
+        {
+          "Type": "TComboBox",
+          "Name": "CmbOptions",
+          "Items": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um memorando.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmMemo",
+      "Children": [
+        {
+          "Type": "TMemo",
+          "Name": "MemoNotes"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um botão de rádio.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmRadio",
+      "Children": [
+        {
+          "Type": "TRadioButton",
+          "Name": "RdoOption",
+          "Caption": "Opção"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma caixa de listagem.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmList",
+      "Children": [
+        {
+          "Type": "TListBox",
+          "Name": "LstItems",
+          "Items": [
+            "Item 1",
+            "Item 2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um campo de senha.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPassword",
+      "Children": [
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Welcome' e um botão 'continue'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmWelcome",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblWelcome",
+          "Caption": "Bem-vindo"
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnContinue",
+          "Caption": "Continuar"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um seletor de data.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmDate",
+      "Children": [
+        {
+          "Type": "TDateTimePicker",
+          "Name": "DtpDate"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Nome' e um campo de edição.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmName",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblNome",
+          "Caption": "Nome:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtName"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um botão rotulado como 'Cancelar'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCancel",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnCancel",
+          "Caption": "Cancelar"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'email' e um campo de texto.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmEmail",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblEmail",
+          "Caption": "E-mail:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtEmail"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma caixa de grupo.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmGroup",
+      "Children": [
+        {
+          "Type": "TGroupBox",
+          "Name": "GrpMain",
+          "Caption": "Grupo"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'telefone' e um campo de texto.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPhone",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblTelefone",
+          "Caption": "Telefone:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPhone"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um botão rotulado como 'saída'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmExit",
+      "Children": [
+        {
+          "Type": "TButton",
+          "Name": "BtnExit",
+          "Caption": "Saída"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'senha' e um campo de senha.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPasswordLabel",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblSenha",
+          "Caption": "Senha:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtPassword",
+          "PasswordChar": "*"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Age' e uma edição de spin.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmAge",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblAge",
+          "Caption": "Idade:"
+        },
+        {
+          "Type": "TSpinEdit",
+          "Name": "SpnAge"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'país' e uma caixa combinada.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCountry",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPais",
+          "Caption": "País:"
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbCountry",
+          "Items": [
+            "USA",
+            "UK",
+            "Canada"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Feedback' e um memorando.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmFeedback",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblFeedback",
+          "Caption": "Opinião:"
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoFeedback"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Search' e um Button 'Go'.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSearch",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblSearch",
+          "Caption": "Procurar:"
+        },
+        {
+          "Type": "TButton",
+          "Name": "BtnGo",
+          "Caption": "Ir"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Nome de usuário' e um campo de texto.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmUsername",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblUsername",
+          "Caption": "Nome de usuário:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtUsername"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma gravadora 'City' e uma caixa combinada.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmCity",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblCidade",
+          "Caption": "Cidade:"
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbCity",
+          "Items": [
+            "New York",
+            "London",
+            "Paris"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Data' e um selecionador de data.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmDateLabel",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblDate",
+          "Caption": "Data:"
+        },
+        {
+          "Type": "TDateTimePicker",
+          "Name": "DtpDate"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Time' e um seletor de tempo.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmTime",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblTime",
+          "Caption": "Tempo:"
+        },
+        {
+          "Type": "TDateTimePicker",
+          "Name": "DtpTime"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Opção' e um botão de rádio.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmOptionRadio",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblOpcao",
+          "Caption": "Opção:"
+        },
+        {
+          "Type": "TRadioButton",
+          "Name": "RdoOption",
+          "Caption": "Opção"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Selecionar' e uma caixa de listagem.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmSelectList",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblSelect",
+          "Caption": "Selecione:"
+        },
+        {
+          "Type": "TListBox",
+          "Name": "LstSelect",
+          "Items": [
+            "One",
+            "Two"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Notas' e um memorando.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmNotes",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblNotas",
+          "Caption": "Notas:"
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoNotes"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'ID' e um campo de texto.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmID",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblID",
+          "Caption": "EU IA:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtID"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Status' e uma caixa combinada.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmStatus",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblStatus",
+          "Caption": "Status:"
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbStatus",
+          "Items": [
+            "Active",
+            "Inactive"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com uma etiqueta 'Score' e uma edição de spin.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmScore",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblScore",
+          "Caption": "Pontuação:"
+        },
+        {
+          "Type": "TSpinEdit",
+          "Name": "SpnScore"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Tipo' e uma caixa combinada.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmType",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblType",
+          "Caption": "Tipo:"
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbType",
+          "Items": [
+            "A",
+            "B"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'nível' e uma edição de spin.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmLevel",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblLevel",
+          "Caption": "Nível:"
+        },
+        {
+          "Type": "TSpinEdit",
+          "Name": "SpnLevel"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Prioridade' e uma caixa combinada.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmPriority",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblPriority",
+          "Caption": "Prioridade:"
+        },
+        {
+          "Type": "TComboBox",
+          "Name": "CmbPriority",
+          "Items": [
+            "Low",
+            "Medium",
+            "High"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'resultado' e um campo de texto.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmResult",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblResultado",
+          "Caption": "Resultado:"
+        },
+        {
+          "Type": "TEdit",
+          "Name": "EdtResult"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Descrição' e um memorando.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmDescription",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblDescricao",
+          "Caption": "Descrição:"
+        },
+        {
+          "Type": "TMemo",
+          "Name": "MemoDescription"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Opção 1' e uma caixa de seleção.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmOption1",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblOption1",
+          "Caption": "Opção 1:"
+        },
+        {
+          "Type": "TCheckBox",
+          "Name": "ChkOption1",
+          "Caption": "Opção 1"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie um formulário com um rótulo 'Opção 2' e um botão de rádio.",
+    "output": {
+      "Type": "TForm",
+      "Name": "FrmOption2",
+      "Children": [
+        {
+          "Type": "TLabel",
+          "Name": "LblOption2",
+          "Caption": "Opção 2:"
+        },
+        {
+          "Type": "TRadioButton",
+          "Name": "RdoOption2",
+          "Caption": "Opção 2"
+        }
+      ]
+    }
+  },
+  {
+    "input": "Crie dois formulários: um formulário de login e um formulário de registro, tanto com tamanho e posições definidos.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmLogin",
+        "Width": 400,
+        "Height": 250,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblUsuario",
+            "Caption": "User:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtUser",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200
+          },
+          {
+            "Type": "TLabel",
+            "Name": "LblPass",
+            "Caption": "Senha:",
+            "Position": {
+              "X": 30,
+              "Y": 80
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtPass",
+            "PasswordChar": "*",
+            "Position": {
+              "X": 120,
+              "Y": 78
+            },
+            "Width": 200
+          },
+          {
+            "Type": "TButton",
+            "Name": "BtnLogin",
+            "Caption": "Conecte-se",
+            "Position": {
+              "X": 120,
+              "Y": 120
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmRegister",
+        "Width": 500,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblNome",
+            "Caption": "Nome:",
+            "Position": {
+              "X": 40,
+              "Y": 50
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtName",
+            "Position": {
+              "X": 140,
+              "Y": 48
+            },
+            "Width": 250
+          },
+          {
+            "Type": "TLabel",
+            "Name": "LblEmail",
+            "Caption": "E-mail:",
+            "Position": {
+              "X": 40,
+              "Y": 90
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtEmail",
+            "Position": {
+              "X": 140,
+              "Y": 88
+            },
+            "Width": 250
+          },
+          {
+            "Type": "TButton",
+            "Name": "BtnRegister",
+            "Caption": "Registrar",
+            "Position": {
+              "X": 140,
+              "Y": 130
+            },
+            "Width": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Gere três formulários: Cliente, Fornecedor e Produto, cada um com largura e altura específicos.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmCustomer",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblCustomer",
+            "Caption": "Nome do cliente:",
+            "Position": {
+              "X": 20,
+              "Y": 30
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtCustomer",
+            "Position": {
+              "X": 150,
+              "Y": 28
+            },
+            "Width": 300
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmSupplier",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblSupplier",
+            "Caption": "Nome do fornecedor:",
+            "Position": {
+              "X": 20,
+              "Y": 30
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtSupplier",
+            "Position": {
+              "X": 150,
+              "Y": 28
+            },
+            "Width": 300
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmProduct",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblProduct",
+            "Caption": "Nome do produto:",
+            "Position": {
+              "X": 20,
+              "Y": 30
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtProduct",
+            "Position": {
+              "X": 150,
+              "Y": 28
+            },
+            "Width": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Crie dois formulários: um para feedback e outro para suporte, tanto com posições e tamanhos definidos.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmFeedback",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblFeedback",
+            "Caption": "Opinião:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TMemo",
+            "Name": "MemoFeedback",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200,
+            "Height": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmSupport",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblSupport",
+            "Caption": "Solicitação de suporte:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TMemo",
+            "Name": "MemoSupport",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200,
+            "Height": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Gere quatro formulários: vendas, inventário, finanças e RH, cada um com tamanho exclusivo e um botão.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmSales",
+        "Width": 500,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnSales",
+            "Caption": "Vendas",
+            "Position": {
+              "X": 200,
+              "Y": 250
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmInventory",
+        "Width": 600,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnInventory",
+            "Caption": "Inventário",
+            "Position": {
+              "X": 250,
+              "Y": 300
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmFinance",
+        "Width": 550,
+        "Height": 320,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnFinance",
+            "Caption": "Financiar",
+            "Position": {
+              "X": 225,
+              "Y": 270
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmHR",
+        "Width": 480,
+        "Height": 280,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnHR",
+            "Caption": "Hr",
+            "Position": {
+              "X": 190,
+              "Y": 230
+            },
+            "Width": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Crie três formulários: login, painel e configurações, cada um com largura, altura e um rótulo.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmLogin",
+        "Width": 400,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblLogin",
+            "Caption": "Conecte-se",
+            "Position": {
+              "X": 150,
+              "Y": 20
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmDashboard",
+        "Width": 800,
+        "Height": 600,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblDashboard",
+            "Caption": "Painel",
+            "Position": {
+              "X": 350,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmSettings",
+        "Width": 500,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblSettings",
+            "Caption": "Configurações",
+            "Position": {
+              "X": 200,
+              "Y": 40
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Gere dois formulários: um para o perfil do usuário e outro para notificações, ambos com dimensões definidas.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmProfile",
+        "Width": 450,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblProfile",
+            "Caption": "Perfil de usuário",
+            "Position": {
+              "X": 150,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmNotifications",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblNotifications",
+            "Caption": "Notificações",
+            "Position": {
+              "X": 120,
+              "Y": 30
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Crie três formulários: Ordem, pagamento e confirmação, cada um com um botão e tamanho definido.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmOrder",
+        "Width": 500,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnOrder",
+            "Caption": "Ordem",
+            "Position": {
+              "X": 200,
+              "Y": 300
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmPayment",
+        "Width": 500,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnPayment",
+            "Caption": "Pagar",
+            "Position": {
+              "X": 200,
+              "Y": 300
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmConfirmation",
+        "Width": 400,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnConfirm",
+            "Caption": "Confirmar",
+            "Position": {
+              "X": 150,
+              "Y": 150
+            },
+            "Width": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Gere duas formas: uma para entrada de produto e outra para lista de produtos, tanto com largura quanto de altura.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmProductEntry",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblProduct",
+            "Caption": "Produto:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtProduct",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmProductList",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TStringGrid",
+            "Name": "GridProducts",
+            "Position": {
+              "X": 30,
+              "Y": 30
+            },
+            "ColCount": 4,
+            "RowCount": 20,
+            "Width": 500,
+            "Height": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Crie três formulários: funcionário, departamento e folha de pagamento, cada um com uma etiqueta e tamanho definido.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmEmployee",
+        "Width": 500,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblEmployee",
+            "Caption": "Employee",
+            "Position": {
+              "X": 200,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmDepartment",
+        "Width": 400,
+        "Height": 250,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblDepartment",
+            "Caption": "Departamento",
+            "Position": {
+              "X": 120,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmPayroll",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblPayroll",
+            "Caption": "Folha de pagamento",
+            "Position": {
+              "X": 250,
+              "Y": 30
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Gere quatro formulários: projeto, tarefa, marco e relatório, cada um com um botão e defina dimensões.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmProject",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnProject",
+            "Caption": "Projeto",
+            "Position": {
+              "X": 250,
+              "Y": 350
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmTask",
+        "Width": 500,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnTask",
+            "Caption": "Tarefa",
+            "Position": {
+              "X": 200,
+              "Y": 250
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmMilestone",
+        "Width": 400,
+        "Height": 250,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnMilestone",
+            "Caption": "Marco",
+            "Position": {
+              "X": 150,
+              "Y": 200
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmReport",
+        "Width": 700,
+        "Height": 500,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnReport",
+            "Caption": "Relatório",
+            "Position": {
+              "X": 300,
+              "Y": 450
+            },
+            "Width": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Crie dois formulários: um para login e outro para o painel, ambos com largura definida, altura e um rótulo.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmLogin",
+        "Width": 350,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblLogin",
+            "Caption": "Conecte-se",
+            "Position": {
+              "X": 120,
+              "Y": 20
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmDashboard",
+        "Width": 800,
+        "Height": 600,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblDashboard",
+            "Caption": "Painel",
+            "Position": {
+              "X": 350,
+              "Y": 30
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Gere três formulários: registro, perfil e configurações, cada um com um botão e tamanho definido.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmRegistration",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnRegister",
+            "Caption": "Registrar",
+            "Position": {
+              "X": 150,
+              "Y": 250
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmProfile",
+        "Width": 450,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnProfile",
+            "Caption": "Perfil",
+            "Position": {
+              "X": 175,
+              "Y": 300
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmSettings",
+        "Width": 500,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnSettings",
+            "Caption": "Configurações",
+            "Position": {
+              "X": 200,
+              "Y": 350
+            },
+            "Width": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Crie dois formulários: um para pesquisa e outro para obter resultados, tanto com largura, altura quanto um campo de texto.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmSearch",
+        "Width": 400,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TEdit",
+            "Name": "EdtSearch",
+            "Position": {
+              "X": 100,
+              "Y": 50
+            },
+            "Width": 200
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmResults",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TListBox",
+            "Name": "LstResults",
+            "Position": {
+              "X": 50,
+              "Y": 50
+            },
+            "Width": 400,
+            "Height": 250
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Gere três formulários: Login, Main e Logout, cada um com um botão e dimensões definidas.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmLogin",
+        "Width": 350,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnLogin",
+            "Caption": "Conecte-se",
+            "Position": {
+              "X": 120,
+              "Y": 120
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmMain",
+        "Width": 800,
+        "Height": 600,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnMain",
+            "Caption": "Principal",
+            "Position": {
+              "X": 350,
+              "Y": 500
+            },
+            "Width": 100
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmLogout",
+        "Width": 350,
+        "Height": 200,
+        "Children": [
+          {
+            "Type": "TButton",
+            "Name": "BtnLogout",
+            "Caption": "Logout",
+            "Position": {
+              "X": 120,
+              "Y": 120
+            },
+            "Width": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Crie quatro formulários: Home, sobre, contato e ajuda, cada um com um rótulo e tamanho de conjunto.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmHome",
+        "Width": 600,
+        "Height": 400,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblInicio",
+            "Caption": "Lar",
+            "Position": {
+              "X": 250,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmAbout",
+        "Width": 500,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblSobre",
+            "Caption": "Sobre",
+            "Position": {
+              "X": 200,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmContact",
+        "Width": 400,
+        "Height": 300,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblContato",
+            "Caption": "Contato",
+            "Position": {
+              "X": 150,
+              "Y": 30
+            }
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmHelp",
+        "Width": 450,
+        "Height": 350,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblAjuda",
+            "Caption": "Ajuda",
+            "Position": {
+              "X": 175,
+              "Y": 30
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Gere dois formulários: um para informações do usuário e outro para endereço, tanto com largura, altura quanto campos.",
+    "output": [
+      {
+        "Type": "TForm",
+        "Name": "FrmUserInfo",
+        "Width": 400,
+        "Height": 250,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblNome",
+            "Caption": "Nome:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtName",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200
+          }
+        ]
+      },
+      {
+        "Type": "TForm",
+        "Name": "FrmAddress",
+        "Width": 400,
+        "Height": 250,
+        "Children": [
+          {
+            "Type": "TLabel",
+            "Name": "LblStreet",
+            "Caption": "Rua:",
+            "Position": {
+              "X": 30,
+              "Y": 40
+            }
+          },
+          {
+            "Type": "TEdit",
+            "Name": "EdtStreet",
+            "Position": {
+              "X": 120,
+              "Y": 38
+            },
+            "Width": 200
+          }
+        ]
+      }
+    ]
+  }
+]
