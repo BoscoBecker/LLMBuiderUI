@@ -8,7 +8,7 @@ base_model_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 lora_model_dir = os.path.join(base_dir, "TinyLlama-lora-out")
 output_dir = "TinyLlama-merged"
 
-# Merge (pode ser movido para script separado)
+# Merge 
 model = AutoModelForCausalLM.from_pretrained(base_model_id, torch_dtype=torch.float32)
 model = PeftModel.from_pretrained(model, lora_model_dir)
 model = model.merge_and_unload()
@@ -16,7 +16,7 @@ model.save_pretrained(output_dir)
 tokenizer = AutoTokenizer.from_pretrained(base_model_id)
 tokenizer.save_pretrained(output_dir)
 
-# Prompt de teste
+# Prompt of tests
 prompt = (
     "<|system|>\n"
     "You are BuilderUI. Always answer ONLY with JSON in the BuilderUI pattern, never XML or HTML.\n"
@@ -39,11 +39,9 @@ prompt = (
     "<|assistant|>\n"
 )
 
-# Tokeniza e prepara
 inputs = tokenizer(prompt, return_tensors="pt")
 inputs = {k: v.to(model.device) for k, v in inputs.items()}
 
-# Geração (sem temperature)
 with torch.no_grad():
     outputs = model.generate(
         **inputs,
@@ -53,10 +51,9 @@ with torch.no_grad():
         eos_token_id=tokenizer.eos_token_id
     )
 
-# Decodifica e limpa
 resposta = tokenizer.decode(outputs[0], skip_special_tokens=True)
 json_start = resposta.find("{")
 resposta_json = resposta[json_start:] if json_start >= 0 else resposta
 
-# print("\n✅ JSON gerado:\n")
+print("\n✅ JSON done:\n")
 print(resposta_json)

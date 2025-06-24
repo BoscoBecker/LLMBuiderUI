@@ -8,7 +8,7 @@ import torch
 base_dir = os.path.dirname(__file__)
 dataset_path = os.path.join(base_dir, "dataset", "dataset.jsonl")
 
-# Lê o arquivo JSONL linha a linha
+
 data = []
 with open(dataset_path, "r", encoding="utf-8") as f:
     for line in f:
@@ -18,8 +18,8 @@ with open(dataset_path, "r", encoding="utf-8") as f:
 dataset_data = []
 for item in data:
     dataset_data.append({
-        "input": item["instruction"],  # agora usa o campo "instruction"
-        "output": json.dumps(item["output"], ensure_ascii=False)  # garante string
+        "input": item["instruction"],  
+        "output": json.dumps(item["output"], ensure_ascii=False) 
     })
 
 dataset = Dataset.from_list(dataset_data)
