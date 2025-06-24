@@ -128,3 +128,10 @@ ollama create tinyllama-custom -f Modelfile
 - [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 - [Hugging Face Transformers Documentation](https://huggingface.co/docs/transformers/index)
 - [llama.cpp (GitHub)](https://github.com/ggerganov/llama.cpp)
+
+## Last Result Test
+
+```ljson
+{'train_runtime': 105974.4997, 'train_samples_per_second': 0.016, 'train_steps_per_second': 0.008, 'train_loss': 0.3685814903443118, 'epoch': 5.0}
+100%|████████████████████████████████████████████████████████████████████████████████| 830/830 [29:26:14<00:00, 127.68s/it]
+```

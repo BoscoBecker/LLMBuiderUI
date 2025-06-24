@@ -51,19 +51,24 @@ def translate_obj(obj, translator):
 
 def main():
     translator = Translator()
-    with open('src/dataset/dataset.json', encoding='utf-8') as f:
-        data = json.load(f)
+    with open('src/dataset/dataset.jsonl', encoding='utf-8') as fin, \
+         open('src/dataset/dataset_ptbr.jsonl', 'w', encoding='utf-8') as fout:
+        for line in fin:
+            if not line.strip():
+                continue
+            item = json.loads(line)
+            # Traduzir o campo "instruction"
+            if "instruction" in item and isinstance(item["instruction"], str):
+                item["instruction"] = translate_text(item["instruction"], translator)
+            # Traduzir o campo "input"
+            if "input" in item and isinstance(item["input"], str):
+                item["input"] = translate_text(item["input"], translator)
+            print(f"Traduzindo: {item.get('instruction', '')} | {item.get('input', '')}")    
+            # Traduzir recursivamente o campo "output"
+            if "output" in item:
+                item["output"] = translate_obj(item["output"], translator)
+            fout.write(json.dumps(item, ensure_ascii=False) + '\n')
 
-    for item in data:
-        # Traduzir o campo "input"
-        if "input" in item and isinstance(item["input"], str):
-            item["input"] = translate_text(item["input"], translator)
-        # Traduzir recursivamente o campo "output"
-        if "output" in item:
-            item["output"] = translate_obj(item["output"], translator)
-
-    with open('src/dataset/dataset_pt.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     main()

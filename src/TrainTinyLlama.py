@@ -5,22 +5,22 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments,
 from peft import get_peft_model, LoraConfig, TaskType
 import torch
 
-
 base_dir = os.path.dirname(__file__)
-dataset_path = os.path.join(base_dir, "dataset", "dataset.json")
+dataset_path = os.path.join(base_dir, "dataset", "dataset.jsonl")
 
-
+# Lê o arquivo JSONL linha a linha
+data = []
 with open(dataset_path, "r", encoding="utf-8") as f:
-    data = json.load(f)
-
+    for line in f:
+        if line.strip():
+            data.append(json.loads(line))
 
 dataset_data = []
 for item in data:
     dataset_data.append({
-        "input": item["input"],
-        "output": json.dumps(item["output"], ensure_ascii=False, indent=2)
+        "input": item["instruction"],  # agora usa o campo "instruction"
+        "output": json.dumps(item["output"], ensure_ascii=False)  # garante string
     })
-
 
 dataset = Dataset.from_list(dataset_data)
 
@@ -64,7 +64,7 @@ training_args = TrainingArguments(
     output_dir=output_dir,
     num_train_epochs=5,  
     per_device_train_batch_size=1, 
-    gradient_accumulation_steps=1, 
+    gradient_accumulation_steps=2, 
     save_strategy="epoch",
     save_total_limit=2,
     logging_dir=logs_dir,
